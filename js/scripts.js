@@ -103,9 +103,9 @@
 				case 6:		
 
 					paragrafo = "Novo parágrafo";
-					titulo = "Relaório de Gestão";
+					titulo = "Relatório de Gestão";
 					link = "#capa";
-
+					$("body").css("background", "#fff");
 				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");					
 					$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -116,25 +116,25 @@
 					
 						
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
+						//$('h1, .p').fadeOut("slow", function(){
 						$('h1').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
-					});		
+						//$('h1, .p').fadeIn("slow");
+					//});		
 
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
-						$( ".metade-direita" ).animate({
+						//$( ".metade-direita" ).animate({
 							
-							 opacity: 0.1
-							}, 800, function(){
-								$(".metade-direita").css("background" ,"#8F7753"); //COLOCAREMOS IMAGEM OU COR
+						//	 opacity: 0.1
+						//	}, 800, function(){
+								$(".metade-direita").css("background" ,"#fff"); //COLOCAREMOS IMAGEM OU COR
 						
-							});
+						//	});
 
-						$( ".metade-direita" ).animate({
-							  opacity: 1
-							}, 800);
+						//$( ".metade-direita" ).animate({
+						//	  opacity: 1
+						//	}, 800);
 						
 						/* MUDA O LINK DOS BOTOES */
 						$('a').attr("href", link);
@@ -159,7 +159,7 @@
 
 				    $('.go-to').attr("onclick", "handle(handle, 18); handledot(3,titulo)");
 
-					$("body").css("background", "#8F7753");
+					$("body").css("background", "#B6D852");
 
 					$(".metade-esquerda").toggle("puff", 800, function(){
 
@@ -187,7 +187,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#8F7753"); //COLOCAREMOS IMAGEM OU COR
+								$(".metade-direita").css("background" ,"#B6D852"); //COLOCAREMOS IMAGEM OU COR
 						
 							});
 
@@ -219,7 +219,7 @@
 					titulo = "Reitor";
 					link = "#reitor";
 					$('.go-to').attr("onclick", "handle(handle, 24); handledot(4,titulo)");
-					$("body").css("background", "#EDE09A");
+					$("body").css("background", "#E9DDAB");
 					//$(".metade-esquerda").css("background", "purple");
 
 					
@@ -337,7 +337,7 @@
 
 					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7,titulo)");		
 
-					$("body").css("background", "#C0E7D4");
+					$("body").css("background", "#EAEBDA");
 					$(".metade-esquerda").toggle("clip", 800, function(){
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Objetivo.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -360,7 +360,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#C0E7D4");
+								$(".metade-direita").css("background" ,"#EAEBDA");
 						
 							});
 
@@ -434,7 +434,7 @@
 					titulo = "Atuação";
 					link = "#atuacao";
 					$('.go-to').attr("onclick", "handle(handle, 48); handledot(8,titulo)");
-					$("body").css("background", "#8F7753");
+					$("body").css("background", "#B1925A");
 					
 					$(".metade-esquerda").toggle("puff", 1000, function(){
 
@@ -459,7 +459,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#8F7753");
+								$(".metade-direita").css("background" ,"#B1925A");
 						
 							});
 
@@ -545,7 +545,7 @@
 					link = "#atividades";
 					$('.go-to').attr("onclick", "handle(handle, 60); handledot(10,titulo)");
 
-					$("body").css("background", "blue");
+					$("body").css("background", "#F4F3B9");
 					
 					$(".metade-esquerda").toggle("size", 1000, function(){
 
@@ -569,7 +569,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"blue");
+								$(".metade-direita").css("background" ,"#F4F3B9");
 						
 							});
 
@@ -759,7 +759,7 @@
 					link = "#pos";
 					$('.go-to').attr("onclick", "handle(handle, 84); handledot(14, titulo)");
 					
-					$("body").css("background", "black");
+					$("body").css("background", "#B0EBD1");
 
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -784,7 +784,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"black");
+								$(".metade-direita").css("background" ,"#B0EBD1");
 						
 							});
 
@@ -813,12 +813,12 @@
 					titulo = "PGS";
 					link = "#pgs";
 					$('.go-to').attr("onclick", "handle(handle, 90); handledot(15,titulo)");
-					$("body").css("background", "black");
+					$("body").css("background", "#2F9CB2");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
-						$(".metade-esquerda").css({"background": "url(img/relatorio/pgs.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
+						$(".metade-esquerda").css({"background": "url(img/relatorio/pgf.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
-							$(".metade-esquerda").css({"background": "url(img/relatorio/pgs.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
+							$(".metade-esquerda").css({"background": "url(img/relatorio/pgf.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 
 					});
@@ -837,7 +837,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"black");
+								$(".metade-direita").css("background" ,"#2F9CB2");
 						
 							});
 
@@ -1182,7 +1182,7 @@
 					titulo = "Rádio";
 					link = "#radio";
 					$('.go-to').attr("onclick", "handle(handle, 132); handledot(22,titulo)");
-					$("body").css("background", "blue");
+					$("body").css("background", "#B6D3E4");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1206,7 +1206,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"blue");
+								$(".metade-direita").css("background" ,"#B6D3E4");
 						
 							});
 
@@ -1235,7 +1235,7 @@
 					titulo = "Cotec";
 					link = "#cotec";
 					$('.go-to').attr("onclick", "handle(handle, 138); handledot(23,titulo)");
-					$("body").css("background", "#E1D7BC");
+					$("body").css("background", "#E7E076");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1259,7 +1259,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#E1D7BC");
+								$(".metade-direita").css("background" ,"#E7E076");
 						
 							});
 
@@ -1498,7 +1498,7 @@
 						link = "#tecnologia";
 
 						$('.go-to').attr("onclick", "handle(handle, 168); handledot(28,titulo)");
-						$("body").css("background", "blue");
+						$("body").css("background", "#DCECF4");
 						
 						$(".metade-esquerda").toggle("puff", 800, function(){
 
@@ -1525,7 +1525,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"blue");
+								$(".metade-direita").css("background" ,"#DCECF4");
 						
 							});
 
@@ -1554,10 +1554,10 @@
 						link = "#sustentabilidade";
 						$('.go-to').attr("onclick", "handle(handle, 174); handledot(29, titulo)");	
 
-						$(".metade-esquerda").css("background", "blue");
+						$(".metade-esquerda").css("background", "#52BF56");
 						
 
-						$("body").css("background", "blue");
+						$("body").css("background", "#52BF56");
 						
 						$(".metade-esquerda").toggle("puff", 800, function(){
 
@@ -1584,7 +1584,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"blue");
+								$(".metade-direita").css("background" ,"#52BF56");
 						
 							});
 
@@ -1615,7 +1615,7 @@
 						$('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");	
 
 						
-						$("body").css("background", "blue");
+						$("body").css("background", "#AC9ED1");
 						
 						$(".metade-esquerda").toggle("puff", 800, function(){
 
@@ -1640,7 +1640,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"blue");
+								$(".metade-direita").css("background" ,"#AC9ED1");
 						
 							});
 

@@ -20,7 +20,7 @@ body{
 .metade-direita{
 	width: 50%;
 	height: 667px;
-	background: #BAF3AD;/*-image: url(../img/fundo-2.png);*/
+	background: #fff;/*-image: url(../img/fundo-2.png);*/
 	position: fixed;
 	right:1px;
 }
@@ -92,6 +92,7 @@ body {
 h1{
 	font-size: 58px;
 	padding: 18px;
+	line-height: 58px;
 }
 p{
 	padding: 15px;
