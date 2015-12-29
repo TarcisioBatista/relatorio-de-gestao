@@ -336,7 +336,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal4";
-					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7)");
+					$('.go-to').attr("onclick", "handle(handle, 36); handledot(6)");
 					
 					$(".metade-esquerda").css("background", "red");
 					$(".metade-esquerda").toggle("clip", 800, function(){
@@ -379,7 +379,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal5";
-					$('.go-to').attr("onclick", "handle(handle, 36)");
+					$('.go-to').attr("onclick", "handle(handle, 42); handledot(7)");
 					$(".metade-esquerda").css("background", "black");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -432,7 +432,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal6";
-					$('.go-to').attr("onclick", "handle(handle, 42)");
+					$('.go-to').attr("onclick", "handle(handle, 48); handledot(8)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("puff", 1000, function(){
@@ -486,7 +486,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal7";
-					$('.go-to').attr("onclick", "handle(handle, 48)");
+					$('.go-to').attr("onclick", "handle(handle, 54); handledot(9)");
 					$(".metade-esquerda").css("background", "purple");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -540,7 +540,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal8";
-					$('.go-to').attr("onclick", "handle(handle, 54)");
+					$('.go-to').attr("onclick", "handle(handle, 60); handledot(10)");
 
 					$(".metade-esquerda").css("background", "blue");
 					
@@ -593,7 +593,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal9";
-					$('.go-to').attr("onclick", "handle(handle, 60)");
+					$('.go-to').attr("onclick", "handle(handle, 66); handledot(11)");
 					$(".metade-esquerda").css("background", "green");
 					
 					$(".metade-esquerda").toggle("clip", 1000, function(){
@@ -653,7 +653,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal10";
-					$('.go-to').attr("onclick", "handle(handle, 66)");
+					$('.go-to').attr("onclick", "handle(handle, 72); handledot(12)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -708,7 +708,7 @@
 				paragrafo = "Novo parágrafo";
 				titulo = "novo titulo";
 				link = "#myModal11";						
-				$('.go-to').attr("onclick", "handle(handle, 72)");			
+				$('.go-to').attr("onclick", "handle(handle, 78); handledot(13)");			
 				$(".metade-esquerda").toggle("blind", 1000, function(){
 					$(".metade-esquerda").css("background", "red");
 					$(".metade-esquerda").toggle("blind", 1000, function(){					
@@ -754,7 +754,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal12";
-					$('.go-to').attr("onclick", "handle(handle, 78)");	
+					$('.go-to').attr("onclick", "handle(handle, 84); handledot(14)");
 					
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -807,7 +807,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal13";
-					$('.go-to').attr("onclick", "handle(handle, 84)");
+					$('.go-to').attr("onclick", "handle(handle, 90); handledot(15)");
 					$(".metade-esquerda").css("background", "red");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -859,7 +859,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal14";
-					$('.go-to').attr("onclick", "handle(handle, 90)");	
+					$('.go-to').attr("onclick", "handle(handle, 96); handledot(16)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -910,7 +910,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal15";
-					$('.go-to').attr("onclick", "handle(handle, 96)");
+					$('.go-to').attr("onclick", "handle(handle, 102); handledot(17)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -961,7 +961,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal16";
-					$('.go-to').attr("onclick", "handle(handle, 102)");
+					$('.go-to').attr("onclick", "handle(handle, 108); handledot(18)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1013,7 +1013,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal17";
-					$('.go-to').attr("onclick", "handle(handle, 108)");
+					$('.go-to').attr("onclick", "handle(handle, 114); handledot(19)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1066,7 +1066,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal18";
-					$('.go-to').attr("onclick", "handle(handle, 114)");
+					$('.go-to').attr("onclick", "handle(handle, 120); handledot(20)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1120,7 +1120,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal19";
-					$('.go-to').attr("onclick", "handle(handle, 120)");	
+					$('.go-to').attr("onclick", "handle(handle, 126); handledot(21)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1173,7 +1173,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal20";
-					$('.go-to').attr("onclick", "handle(handle, 126)");
+					$('.go-to').attr("onclick", "handle(handle, 132); handledot(22)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1226,7 +1226,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal21";
-					$('.go-to').attr("onclick", "handle(handle, 132)");	
+					$('.go-to').attr("onclick", "handle(handle, 138); handledot(23)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1278,7 +1278,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal22";
-					$('.go-to').attr("onclick", "handle(handle, 138)");	
+					$('.go-to').attr("onclick", "handle(handle, 144); handledot(24)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1330,7 +1330,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal23";
-					$('.go-to').attr("onclick", "handle(handle, 144)");	
+					$('.go-to').attr("onclick", "handle(handle, 150); handledot(25)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1382,7 +1382,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal24";
-					$('.go-to').attr("onclick", "handle(handle, 150)");
+					$('.go-to').attr("onclick", "handle(handle, 156); handledot(26)");
 					$(".metade-esquerda").css("background", "blue");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1434,7 +1434,7 @@
 						paragrafo = "Novo parágrafo";
 						titulo = "novo titulo";
 						link = "#myModal25";
-						$('.go-to').attr("onclick", "handle(handle, 156)");
+						$('.go-to').attr("onclick", "handle(handle, 162); handledot(27)");
 						$(".metade-esquerda").css("background", "blue");
 						
 						$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1487,7 +1487,7 @@
 						paragrafo = "Novo parágrafo";
 						titulo = "novo titulo";
 						link = "#myModal26";
-						$('.go-to').attr("onclick", "handle(handle, 6)");	
+						$('.go-to').attr("onclick", "handle(handle, 168); handledot(28)");
 						$(".metade-esquerda").css("background", "blue");
 						
 						$(".metade-esquerda").toggle("blind", 1000, function(){
