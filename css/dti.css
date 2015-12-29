@@ -1,0 +1,192 @@
+
+@font-face {
+	font-family: "Roboto Regular";
+	src: url("../fontes/Roboto-Regular.ttf");
+	}
+
+body{
+	background: #fff;
+}
+.metade-esquerda{
+	width: 50%;
+	background: url(../img/relatorio/capa.png);
+	background-size:cover;
+	height:667px;
+	position: fixed;
+	left: 1px;
+	
+   
+	}
+.metade-direita{
+	width: 50%;
+	height: 667px;
+	background: #BAF3AD;/*-image: url(../img/fundo-2.png);*/
+	position: fixed;
+	right:1px;
+}
+
+.logo{
+	width: 90px;
+	height: auto;
+	position: absolute;
+	left: 46.3%;
+	top: 45%;
+}
+
+.go-to{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	/*border: 2px solid black;*/
+	background: #333;
+	position: fixed;
+	z-index: 1003;
+	left:48%;
+	top:85%;
+	text-align: center;
+	
+	padding-bottom:0px; 
+}
+.go-to i{
+	color:#eee;
+	margin-top: 10px;
+}
+.go-to:hover i{
+	color:#999;
+	text-decoration: none;
+}
+
+.logo img{
+
+	width: 70px;
+	height: auto;
+	padding:15px;
+	
+
+	position: fixed;
+	z-index: 1000;
+}
+body {
+    	height: 700px;
+		}
+		#direcao {
+    	position: fixed;
+    	top: 0px;
+		}
+.conteudo-esquerda{
+	margin-top: 25px;
+	z-index: 1000;
+	position: fixed;
+
+	width: 40px;
+
+}
+.conteudo-direita{
+	margin-top: 25px;
+	z-index: 1000;
+	
+	text-align: center;
+	
+	
+}
+h1{
+	font-size: 58px;
+	padding: 18px;
+}
+p{
+	padding: 15px;
+}
+.time-line i{
+	z-index: 1000;
+	position:relative;
+	color: #fff;
+	margin-left: -6px;
+	margin-top: -32px;
+	margin-bottom: 6px;
+}
+.time-line li:hover{
+	cursor:pointer;
+}
+
+.time-line{
+	text-align: center;
+}
+
+.time-line {
+    content: "";
+    position: fixed;
+   
+	height: 600px;
+   
+  	border-radius: 10px;
+
+    background: rgba(255,255,255);
+}
+ ul {
+	list-style: none;
+
+}
+li{
+	    line-height: 13px;
+    margin-bottom: 4px;
+}
+.encapsulador-conteudo{
+	
+	width:70%;
+	margin: 0 auto;
+	margin-top: 200px;
+	z-index: 1002;
+	position: relative;
+}
+.background-icones{
+	position:absolute;
+	z-index: 1001;
+	height: 667px;
+}
+table{
+		height: 100%;
+}
+td{
+	width:6%;
+	height: 20%;
+}
+
+
+#foto3{
+	width: 20px;
+	height: 9px;
+	opacity: 0.8;
+}
+
+
+
+#foto6{
+	width: 33px;
+	height: 15px;
+	opacity: 0.2;
+}
+
+.botao{
+	
+	padding: 5px 30px;
+	color:#333;
+	
+	font-size:18px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid #444;
+}
+
+.botao:hover{
+	
+	padding: 5px 30px;
+	color:#333;
+	
+	font-size:18px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 4px solid black;
+}
+
+
+
