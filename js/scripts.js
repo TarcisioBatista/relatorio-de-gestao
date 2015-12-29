@@ -11,7 +11,7 @@
 			var num_listas;
 			item = item-1;
 			$("#list"+item).css(efeitolista);
-			$("#list"+item).html("<div style='float:right;font-size:18px;font-weight:bold;font-style:normal;left:8px; width:100px;  font-family: inherit;'>"+listname+"</div>");
+			$("#list"+item).html("<div style='float:right;font-size:18px;padding-top:4px;font-weight:bold;font-style:normal;left:8px; width:150px;  font-family: inherit;'>"+listname+"</div>");
 			
 
 
@@ -31,7 +31,7 @@
 	}
 
 	var posicao	= 5;
-	var listapadrao = {marginLeft: "-100px", fontSize: "1em", marginTop: ""};
+	var listapadrao = {marginLeft: "-150px", fontSize: "1em", marginTop: ""};
 	var efeitolista = {marginLeft: "0px", fontSize: "2em", marginTop: "3px"};
 	var titulo = "Título default";
 	var paragrafo = "Texto default";
