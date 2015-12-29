@@ -97,25 +97,25 @@
 				case 6:		
 
 					paragrafo = "Novo parágrafo";
-					titulo = "novo titulo";
+					titulo = "Relaório de Gestão";
 					link = "#biblioteca";
 
-				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2)");
+				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");
 
-					$("body").css("background", "#8F7753");
+					//$("body").css("background", "#8F7753");
 
-					$(".metade-esquerda").toggle("puff", 800, function(){
+					//$(".metade-esquerda").toggle("puff", 800, function(){
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
-						$(".metade-esquerda").toggle("puff", 400, function(){	
-							$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
-						});	
+					//	$(".metade-esquerda").toggle("puff", 400, function(){	
+					//		$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
+					//	});	
 						
-					});
+					//});
 
 
-						handledot(1,' Apresentacao');
+						handledot(1,titulo);
 					
 						
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
@@ -157,10 +157,10 @@
 				case 12:		
 
 					paragrafo = "Novo parágrafo";
-					titulo = "novo titulo";
+					titulo = "Apresentação";
 					link = "#biblioteca";
 
-				    $('.go-to').attr("onclick", "handle(handle, 18); handledot(3)");
+				    $('.go-to').attr("onclick", "handle(handle, 18); handledot(3,titulo)");
 
 					$("body").css("background", "#8F7753");
 
@@ -174,10 +174,8 @@
 						
 					});
 
-
-						handledot(2);
+						handledot(2,titulo);
 					
-						
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
 						$('h1, .p').fadeOut("slow", function(){
 						$('h1').html(titulo);
@@ -222,23 +220,23 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal2";
-					$('.go-to').attr("onclick", "handle(handle, 24); handledot(4)");
+					$('.go-to').attr("onclick", "handle(handle, 24); handledot(4,titulo)");
 					$("body").css("background", "#EDE09A");
 					//$(".metade-esquerda").css("background", "purple");
 
 					
 					$(".metade-esquerda").toggle("blind", 800, function(){
 
-						$(".metade-esquerda").css({"background": "url(img/relatorio/Documentacao.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
+						$(".metade-esquerda").css({"background": "url(img/relatorio/Reitor.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
 						$(".metade-esquerda").toggle("blind", 400, function(){	
-							$(".metade-esquerda").css({"background": "url(img/relatorio/Documentacao.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
+							$(".metade-esquerda").css({"background": "url(img/relatorio/Reitor.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
 						});	
 						
 					});
 
 
-						handledot(3);
+						handledot(3,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
 						$('h1, .p').fadeOut("slow", function(){
@@ -278,15 +276,16 @@
 
 
 					paragrafo = "Novo parágrafo";
-					titulo = "novo titulo";
+					titulo = "Numeros";
 					link = "#myModal3";
-					$('.go-to').attr("onclick", "handle(handle, 30); handledot(5)");
-					$(".metade-esquerda").css("background", "blue");
-					
+					$('.go-to').attr("onclick", "handle(handle, 30); handledot(5,titulo)");
+
+					$("body").css("background","green");				
 					$(".metade-esquerda").toggle("size", 700, function(){
 
-						$(".metade-esquerda").css("background", "red");
-						$(".metade-esquerda").toggle("size", 700, function(){					
+						$(".metade-esquerda").css({"background": "url(img/relatorio/numeros.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
+						$(".metade-esquerda").toggle("size", 700, function(){
+							$(".metade-esquerda").css({"background": "url(img/relatorio/numeros.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});					
 						});
 
 					});
@@ -336,7 +335,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "novo titulo";
 					link = "#myModal4";
-					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7)");
+					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7,titulo)");
 					
 					$(".metade-esquerda").css("background", "red");
 					$(".metade-esquerda").toggle("clip", 800, function(){
