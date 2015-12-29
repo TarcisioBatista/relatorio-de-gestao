@@ -1611,9 +1611,9 @@
 
 						titulo = "Hino";
 						link = "#hino";
+
 						$('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");	
 
-						$(".metade-esquerda").css("background", "blue");
 						
 						$("body").css("background", "blue");
 						
