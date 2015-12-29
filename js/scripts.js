@@ -11,11 +11,17 @@
 			var num_listas;
 			item = item-1;
 			$("#list"+item).css(efeitolista);
+			$("#list"+item).html("<div style='float:right;font-size:18px;font-weight:bold;font-style:normal;left:8px; width:100px;  font-family: inherit;'>"+listname+"</div>");
+			
+
 
 			for(num_listas = 1; num_listas < 29; num_listas++){		
 				//alert(num_listas);
 				if(num_listas != item){
 					$("#list"+num_listas).css(listapadrao);
+					$("#list"+num_listas).html("");
+					
+					
 				
 				}
 			}
@@ -25,8 +31,8 @@
 	}
 
 	var posicao	= 5;
-	var listapadrao = {marginLeft: "", fontSize: "1em", marginTop: ""};
-	var efeitolista = {marginLeft: "-5px", fontSize: "2em", marginTop: "3px"};
+	var listapadrao = {marginLeft: "-100px", fontSize: "1em", marginTop: ""};
+	var efeitolista = {marginLeft: "0px", fontSize: "2em", marginTop: "3px"};
 	var titulo = "Título default";
 	var paragrafo = "Texto default";
 	var link = '';
@@ -104,7 +110,9 @@
 					$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
 
+
 						handledot(1,titulo);
+
 					
 						
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
@@ -164,6 +172,7 @@
 					});
 
 						handledot(2,titulo);
+
 					
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
 						$('h1, .p').fadeOut("slow", function(){
@@ -1540,9 +1549,11 @@
 					case 168:
 
 						paragrafo = "Novo parágrafo";
+
 						titulo = "Sustentabilidade";
 						link = "#sustentabilidade";
-						$('.go-to').attr("onclick", "handle(handle, 174); handledot(2)");	
+						$('.go-to').attr("onclick", "handle(handle, 174); handledot(29, titulo)");	
+
 						$(".metade-esquerda").css("background", "blue");
 						
 
@@ -1597,9 +1608,12 @@
 					case 174:
 
 						paragrafo = "Novo parágrafo";
+
 						titulo = "Hino";
 						link = "#hino";
-						$('.go-to').attr("onclick", "handle(handle, 174); handledot(2,titulo)");	
+
+						$('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");	
+
 						
 						$("body").css("background", "blue");
 						
@@ -1609,6 +1623,7 @@
 
 						$(".metade-esquerda").toggle("puff", 400, function(){	
 							$(".metade-esquerda").css({"background": "url(img/relatorio/hino.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
+							});
 						});	
 
 							handledot(29,titulo);
