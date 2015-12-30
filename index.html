@@ -114,9 +114,9 @@
 							</table>
 						</div>
 						<div class="encapsulador-conteudo">
-							<h1>Título</h1>
+							<h1>Relatório de Gestão</h1>
 							<p class="p">Une solution sur-mesure pour aider les hôteliers indépendants à prospérer sur le Web. Nous avons eu plaisir à réaliser un site en Responsive Design, avec de belles animations SVG.</p>
-							<a href="#myModal1" role="button" onclick="handle(event,0,2)" data-toggle="modal" class="botao">Botao</a>
+							<a onclick="handle(event,0,2); EventoModal(1);" href="#myModal1" role="button"  data-toggle="modal" class="botao">Botao</a>
 							
 							
 						</div>
@@ -141,7 +141,7 @@
     
     <div id="apresentacao" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-header">
-	    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	    <button type="button" class="close" data-dismiss="modal" onclick="EventoModal(0);"aria-hidden="true">×</button>
 	    <h3 id="myModalLabel">DIRETORIA DE BIBLIOTECA UNIVERSITÁRIA</h3>
 	  </div>
 	  <div class="modal-body" >

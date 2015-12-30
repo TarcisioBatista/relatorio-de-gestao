@@ -7,6 +7,10 @@
     100
 	);
 
+
+
+
+
 	function handledot (item, listname){
 			var num_listas;
 			item = item-1;
@@ -41,6 +45,8 @@
 	
 		function handle(delta, ver) {
 			
+		
+			
 			if(posicao >= 214){
 
 		    	posicao = 214;
@@ -61,9 +67,26 @@
 		    }
 
 
+
 		    /* EVENTO COM O MOUSE WHEEL DESCENDO */
+			if((posicao%6)==0){
+					function sleep(milliseconds) {
+ 						var start = new Date().getTime();
+  						for (var i = 0; i < 1e7; i++) {
+    						if ((new Date().getTime() - start) > milliseconds){
+      						break;
+    						}
+  						}
+					}
+			sleep(2000);
+			posicao++;
+			}
 		    else if (delta < 0){ 
+		   		
 		        posicao = posicao + 1;
+		        
+		       
+
 		        $('.text').html('para baixo'+posicao);
 
 		        if(ver == 2){
@@ -91,7 +114,7 @@
 
 		    }
 		    	//$('h1').html("Hello world");
-		
+
 			switch (posicao) {
 
 				case 0:	
@@ -101,7 +124,7 @@
 					break;	
 
 				case 6:		
-
+					//$(".fa-circle").css("color", "#105228");
 					paragrafo = "Novo parágrafo";
 					titulo = "Relatório de Gestão";
 					link = "#capa";
@@ -109,8 +132,8 @@
 				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");					
 					$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
-
-
+					
+					
 						handledot(1,titulo);
 
 					
@@ -152,7 +175,8 @@
 					break;	
 
 				case 12:		
-
+					$(".fa-circle").css("color", "#105228");
+					
 					paragrafo = "Novo parágrafo";
 					titulo = "Apresentação";
 					link = "#apresentacao";
@@ -214,7 +238,7 @@
 
 				case 18:
 
-					
+					$(".fa-circle").css("color", "#9E2020");
 					paragrafo = "Novo parágrafo";
 					titulo = "Reitor";
 					link = "#reitor";
@@ -272,7 +296,7 @@
 
 				case 24:
 
-
+					$(".fa-circle").css("color", "#0A3C07");
 					paragrafo = "Novo parágrafo";
 					titulo = "Numeros";
 					link = "#numeros";
@@ -330,7 +354,7 @@
 
 				case 30:
 
-
+					$(".fa-circle").css("color", "#288183");
 					paragrafo = "Novo parágrafo";
 					titulo = "Objetivo";
 					link = "#objetivo";
@@ -375,7 +399,7 @@
 
 				case 36:
 
-
+					$(".fa-circle").css("color", "#438FCF");
 					paragrafo = "Novo parágrafo";
 					titulo = "Aplicação";
 					link = "#aplicacao";
@@ -429,7 +453,7 @@
 
 				case 42:
 
-
+					$(".fa-circle").css("color","#3F4334");
 					paragrafo = "Novo parágrafo";
 					titulo = "Atuação";
 					link = "#atuacao";
@@ -484,7 +508,7 @@
 
 				case 48:
 
-
+					$(".fa-circle").css("color","#0981B1");
 					paragrafo = "Novo parágrafo";
 					titulo = "Meta";
 					link = "#meta";
@@ -539,7 +563,7 @@
 
 				case 54:
 
-
+					$(".fa-circle").css("color","#AB7758");
 					paragrafo = "Novo parágrafo";
 					titulo = "Atividades";
 					link = "#atividades";
@@ -593,7 +617,7 @@
 
 				case 60:
 
-
+					$(".fa-circle").css("color","#0D0E0E");
 					paragrafo = "Novo parágrafo";
 					titulo = "Ensino";
 					link = "#ensino";
@@ -649,7 +673,7 @@
 				case 66:
 
 
-
+					$(".fa-circle").css("color","#270202");
 					paragrafo = "Novo parágrafo";
 					titulo = "CEAD";
 					link = "#cead";
@@ -704,7 +728,7 @@
 				case 72:
 
 
-
+				$(".fa-circle").css("color","#0977D9");
 				paragrafo = "Novo parágrafo";
 				titulo = "Pesquisa";
 				link = "#pesquisa";						
@@ -753,7 +777,7 @@
 
 
 				case 78:
-
+					$(".fa-circle").css("color","#08775E");
 					paragrafo = "Novo parágrafo";
 					titulo = "Pós";
 					link = "#pos";
@@ -808,7 +832,7 @@
 
 				case 84:
 
-
+						$(".fa-circle").css("color","#171717");
 					paragrafo = "Novo parágrafo";
 					titulo = "PGS";
 					link = "#pgs";
@@ -860,7 +884,7 @@
 						break;
 
 				case 90:
-
+					$(".fa-circle").css("color","#0F7A81");
 					paragrafo = "Novo parágrafo";
 					titulo = "Hospital";
 					link = "#hospital";
@@ -912,7 +936,7 @@
 
 						break;
 				case 96:
-
+					$(".fa-circle").css("color","#114E29");
 					paragrafo = "Novo parágrafo";
 					titulo = "Extensão";
 					link = "#extensao";
@@ -964,7 +988,7 @@
 						break;
 
 				case 102:
-
+					$(".fa-circle").css("color","#3E5C8F");
 					paragrafo = "Novo parágrafo";
 					titulo = "Biblioteca";
 					link = "#biblioteca";
@@ -1017,7 +1041,7 @@
 						break;
 
 				case 108:
-
+					$(".fa-circle").css("color","#697137");
 					paragrafo = "Novo parágrafo";
 					titulo = "Editora";
 					link = "#editora";
@@ -1070,7 +1094,7 @@
 
 				case 114:
 
-					
+					$(".fa-circle").css("color","#1B5877");
 					paragrafo = "Novo parágrafo";
 					titulo = "Documentação";
 					link = "#documentacao";
@@ -1124,7 +1148,7 @@
 
 				case 120:
 
-
+					$(".fa-circle").css("color","#397451");
 					paragrafo = "Novo parágrafo";
 					titulo = "Imprensa";
 					link = "#imprensa";
@@ -1177,7 +1201,7 @@
 
 				case 126:
 
-
+					$(".fa-circle").css("color","#185955");
 					paragrafo = "Novo parágrafo";
 					titulo = "Rádio";
 					link = "#radio";
@@ -1229,7 +1253,7 @@
 						break;
 
 				case 132:
-
+					$(".fa-circle").css("color","#496918");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Cotec";
@@ -1281,7 +1305,7 @@
 						break;
 
 				case 138:
-
+					$(".fa-circle").css("color","#FCF7FF");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Intercâmbio";
@@ -1334,7 +1358,7 @@
 
 				case 144:
 
-
+					$(".fa-circle").css("color","#0E520D");
 					paragrafo = "Novo parágrafo";
 					titulo = "IPC";
 					link = "#ipc";
@@ -1386,7 +1410,7 @@
 						break;
 
 				case 150:
-
+					$(".fa-circle").css("color","#141514");
 					paragrafo = "Novo parágrafo";
 					titulo = "Jurídico";
 					link = "#juridico";
@@ -1438,7 +1462,7 @@
 						break;
 
 					case 156:
-
+						$(".fa-circle").css("color","#51A4EA");
 						paragrafo = "Novo parágrafo";
 						titulo = "Avaliação";
 						link = "#avaliacao";
@@ -1492,7 +1516,7 @@
 							break;
 
 					case 162:
-
+						$(".fa-circle").css("color","#51A4EA");
 						paragrafo = "Novo parágrafo";
 						titulo = "Tecnologia";
 						link = "#tecnologia";
@@ -1547,7 +1571,7 @@
 							break;
 
 					case 168:
-
+						$(".fa-circle").css("color","#FBFBFB");
 						paragrafo = "Novo parágrafo";
 
 						titulo = "Sustentabilidade";
@@ -1606,7 +1630,7 @@
 
 							break;
 					case 174:
-
+						$(".fa-circle").css("color","#191D74");
 						paragrafo = "Novo parágrafo";
 
 						titulo = "Hino";
@@ -1689,7 +1713,7 @@
 		}
 
 		if(delta)handle(delta);
-
+			
 		if(event.preventDefault){
 			event.preventDefault();
 			event.returnValue=false;
@@ -1700,5 +1724,7 @@
 		window.addEventListener('DOMMouseScroll',wheel,false);
 		window.onmousewheel=document.onmousewheel=wheel;
 	}
+
+
 
 	
