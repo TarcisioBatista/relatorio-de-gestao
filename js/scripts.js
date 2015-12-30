@@ -78,14 +78,14 @@
     						}
   						}
 					}
-			sleep(2000);
-			posicao++;
+			sleep(1500);
+			posicao=posicao+1;
 			}
 		    else if (delta < 0){ 
 		   		
 		        posicao = posicao + 1;
 		        
-		       
+		  
 
 		        $('.text').html('para baixo'+posicao);
 
@@ -1720,11 +1720,44 @@
 		}
 	}
 
+
+
 	if(window.addEventListener){
-		window.addEventListener('DOMMouseScroll',wheel,false);
-		window.onmousewheel=document.onmousewheel=wheel;
+		
+			
+				
+				window.addEventListener('DOMMouseScroll',wheel,false);
+				window.onmousewheel=document.onmousewheel=wheel;
+	}
+	var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+function preventDefault(e) {
+  e = e || window.event;
+  if (e.preventDefault)
+      e.preventDefault();
+  e.returnValue = false;  
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+	function disableScroll() {
+		  if (window.addEventListener) // older FF
+		  window.addEventListener('DOMMouseScroll', preventDefault, false);
+		  window.onwheel = preventDefault; // modern standard
+		  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+		  window.ontouchmove  = preventDefault; // mobile
+		  document.onkeydown  = preventDefaultForScrollKeys;
 	}
 
+	function enableScroll() {
+    if(window.addEventListener){
+		
+				window.addEventListener('DOMMouseScroll',wheel,false);
+				window.onmousewheel=document.onmousewheel=wheel;
+	}
+}
 
-
-	
