@@ -11,7 +11,7 @@ body{
 	width: 50%;
 	background: url(../img/relatorio/capa.png);
 	background-size:cover;
-	height:667px;
+	/*height:667px;*/
 	position: fixed;
 	left: 1px;
 	
@@ -19,7 +19,7 @@ body{
 	}
 .metade-direita{
 	width: 50%;
-	height: 667px;
+	/*height: 667px;*/
 	background: #fff;/*-image: url(../img/fundo-2.png);*/
 	position: fixed;
 	right:1px;
@@ -29,6 +29,7 @@ body{
 	width: 90px;
 	height: auto;
 	position: absolute;
+	background: #fff;
 	left: 46.3%;
 	top: 45%;
 }
@@ -38,24 +39,45 @@ body{
 	height: 50px;
 	border-radius: 30px;
 	/*border: 2px solid black;*/
-	background: #333;
+background: rgba(255,255,255,0.4);
 	position: fixed;
 	z-index: 1003;
 	left:48%;
-	top:85%;
+	top:90%;
 	text-align: center;
 	
 	padding-bottom:0px; 
 }
 .go-to i{
-	color:#eee;
+	color:#ccc;
 	margin-top: 10px;
 }
 .go-to:hover i{
 	color:#999;
 	text-decoration: none;
 }
-
+.go-top{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	/*border: 2px solid black;*/
+	/*background: rgba(255,255,255,0.4);*/
+	position: fixed;
+	z-index: 1003;
+	left:48%;
+	top:3%;
+	text-align: center;
+	
+	padding-bottom:0px; 
+}
+.go-top i{
+	color:#ccc;
+	margin-top: 10px;
+}
+.go-top:hover i{
+	color:#999;
+	text-decoration: none;
+}
 .logo img{
 
 	width: 70px;
@@ -103,7 +125,7 @@ p{
 	color: #fff;
 	margin-left: -6px;
 	margin-top: -32px;
-	margin-bottom: 6px;
+	margin-bottom: 2px;
 }
 .time-line li:hover{
 	cursor:pointer;
@@ -151,6 +173,10 @@ td{
 	width:6%;
 	height: 20%;
 }
+#fotob{
+	width: 20px;
+	height: 20px;
+}
 
 
 #foto3{
@@ -189,5 +215,200 @@ td{
 	border: 4px solid black;
 }
 
+.lista-conteudos{
+	text-align: center;
+	margin-bottom:20px; 
+}
+.lista-conteudos li{
+	padding: 20px;
+}
+.content-responsivo-1{
+	background: url(../img/relatorio/apresentacao.jpg);
+	background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+}
+.content-responsivo-2{
+		background: url(../img/relatorio/reitor.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
 
+}
+.content-responsivo-3{
+		background: url(../img/relatorio/numeros.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-4{
+		background: url(../img/relatorio/Objetivo.jpg);
+			background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+
+}
+.content-responsivo-5{background: url(../img/relatorio/tecnologia.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-6{background: url(../img/relatorio/atuacao.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-7{background: url(../img/relatorio/Meta.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-8{background: url(../img/relatorio/Atividades.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-9{background: url(../img/relatorio/Ensino.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-10{background: url(../img/relatorio/cead.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-11{background: url(../img/relatorio/pesquisa.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-12{background: url(../img/relatorio/pos.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-13{background: url(../img/relatorio/pgf.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-14{background: url(../img/relatorio/hospital.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-15{background: url(../img/relatorio/extensao.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-16{background: url(../img/relatorio/Biblioteca.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-17{	background: url(../img/relatorio/Editora.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+
+}
+.content-responsivo-18{background: url(../img/relatorio/Documentacao.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-19{background: url(../img/relatorio/Imprensa.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-20{background: url(../img/relatorio/Radio.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-21{background: url(../img/relatorio/Cotec.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+
+.content-responsivo-23{background: url(../img/relatorio/intercambio.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-24{background: url(../img/relatorio/ipc.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-25{background: url(../img/relatorio/juridico.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-26{background: url(../img/relatorio/avaliacao.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-27{background: url(../img/relatorio/tecnologia.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-28{background: url(../img/relatorio/sustentabilidade.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+.content-responsivo-22{background: url(../img/relatorio/Hino.jpg);
+		background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	height: 500px;
+	
+}
+
+.list_effect1,.list_effect2,.list_effect3,.list_effect4,.list_effect5,.list_effect6,
+.list_effect7,.list_effect8,.list_effect9,.list_effect10,.list_effect11,.list_effect12,
+.list_effect13,.list_effect14,.list_effect15,.list_effect16,.list_effect17,.list_effect18,
+.list_effect19,.list_effect20,.list_effect21,.list_effect22,.list_effect23,.list_effect24,
+.list_effect25,.list_effect26,.list_effect27,.list_effect28{
+	float:right;
+	font-size:14px;
+	padding-top:4px;
+	font-weight:bold;
+	font-style:normal;
+	margin-left:20px; 
+	text-align:left; 
+	width:80px;  
+	opacity: 0;
+	font-family: Helvetica;
+}
 

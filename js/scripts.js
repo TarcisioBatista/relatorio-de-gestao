@@ -1,4 +1,209 @@
-	
+	$(document).ready(function(){
+		$('.metade-esquerda, .metade-direita').height($( window ).height());
+
+
+
+		$('#list1').hover(function(){
+			$(".list_effect1").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect1").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list2').hover(function(){
+			$(".list_effect2").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect2").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list3').hover(function(){
+			$(".list_effect3").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect3").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list4').hover(function(){
+			$(".list_effect4").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect4").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list5').hover(function(){
+			$(".list_effect5").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect5").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list6').hover(function(){
+			$(".list_effect6").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect6").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list7').hover(function(){
+			$(".list_effect7").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect7").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list8').hover(function(){
+			$(".list_effect8").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect8").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list9').hover(function(){
+			$(".list_effect9").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect9").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list10').hover(function(){
+			$(".list_effect10").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect10").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list11').hover(function(){
+			$(".list_effect11").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect11").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list12').hover(function(){
+			$(".list_effect12").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect12").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list13').hover(function(){
+			$(".list_effect13").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect13").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list14').hover(function(){
+			$(".list_effect14").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect14").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list15').hover(function(){
+			$(".list_effect15").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect15").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list16').hover(function(){
+			$(".list_effect16").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect16").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list17').hover(function(){
+			$(".list_effect17").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect17").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list18').hover(function(){
+			$(".list_effect18").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect18").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list19').hover(function(){
+			$(".list_effect19").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect19").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list20').hover(function(){
+			$(".list_effect20").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect20").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list21').hover(function(){
+			$(".list_effect21").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect21").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list22').hover(function(){
+			$(".list_effect22").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect22").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list23').hover(function(){
+			$(".list_effect23").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect23").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list24').hover(function(){
+			$(".list_effect24").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect24").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list25').hover(function(){
+			$(".list_effect25").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect25").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list26').hover(function(){
+			$(".list_effect26").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect26").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list27').hover(function(){
+			$(".list_effect27").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect27").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+		$('#list28').hover(function(){
+		$(".list_effect28").animate({ opacity: 1,},200);
+		},function(){
+			$(".list_effect28").animate({ opacity: 0,},200);
+		});
+
+		//-------------------------------------------------
+
+
+
+
+	});
 	setInterval(
     function () {
         $('.foto').animate({rotate: '+=0.12deg'}, 0);
@@ -15,15 +220,14 @@
 			var num_listas;
 			item = item-1;
 			$("#list"+item).css(efeitolista);
-			$("#list"+item).html("<div style='float:right;font-size:18px;padding-top:4px;font-weight:bold;font-style:normal;left:8px; width:150px;  font-family: inherit;'>"+listname+"</div>");
-			
+			$(".list_effect"+item).animate({opacity: 1,	},4000);	
 
 
 			for(num_listas = 1; num_listas < 29; num_listas++){		
 				//alert(num_listas);
 				if(num_listas != item){
 					$("#list"+num_listas).css(listapadrao);
-					$("#list"+num_listas).html("");
+					//$("#list"+num_listas).html("");
 					
 					
 				
@@ -35,7 +239,7 @@
 	}
 
 	var posicao	= 5;
-	var listapadrao = {marginLeft: "-150px", fontSize: "1em", marginTop: ""};
+	var listapadrao = {marginLeft: "0px", fontSize: "1em", marginTop: ""};
 	var efeitolista = {marginLeft: "0px", fontSize: "2em", marginTop: "3px"};
 	var titulo = "Título default";
 	var paragrafo = "Texto default";
@@ -69,23 +273,23 @@
 
 
 		    /* EVENTO COM O MOUSE WHEEL DESCENDO */
-			if((posicao%6)==0){
-					function sleep(milliseconds) {
- 						var start = new Date().getTime();
-  						for (var i = 0; i < 1e7; i++) {
-    						if ((new Date().getTime() - start) > milliseconds){
-      						break;
-    						}
-  						}
-					}
-			sleep(1500);
-			posicao=posicao+1;
-			}
+			
 		    else if (delta < 0){ 
-		   		
+		   		if((posicao%6)==0){
+						function sleep(milliseconds) {
+	 						var start = new Date().getTime();
+	  						for (var i = 0; i < 1e7; i++) {
+	    						if ((new Date().getTime() - start) > milliseconds){
+	      						break;
+	    						}
+	  						}
+						}
+				sleep(1000);
+				posicao++;
+				}
 		        posicao = posicao + 1;
 		        
-		  
+		  		
 
 		        $('.text').html('para baixo'+posicao);
 
@@ -101,7 +305,21 @@
 
 		   /* EVENTO COM O MOUSE WHEEL SUBINDO */
 		    else {
+		    	        if((posicao%6)==0){
+					function sleep(milliseconds) {
+ 						var start = new Date().getTime();
+  						for (var i = 0; i < 1e7; i++) {
+    						if ((new Date().getTime() - start) > milliseconds){
+      						break;
+    						}
+  						}
+					}
+				sleep(1000);
+				posicao--;
+				}
 		        posicao = posicao - 1;
+
+		
 		        $('.text').html('para cima'+posicao);
 
 				if(ver == 2){
@@ -113,7 +331,7 @@
 				}
 
 		    }
-		    	//$('h1').html("Hello world");
+		    	//$('.h1-desk').html("Hello world");
 
 			switch (posicao) {
 
@@ -129,6 +347,9 @@
 					titulo = "Relatório de Gestão";
 					link = "#capa";
 					$("body").css("background", "#fff");
+
+					$('.go-top').attr("onclick", "handle(handle, 0); handledot(2,titulo)");	
+
 				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");					
 					$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -139,10 +360,10 @@
 					
 						
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						//$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						//$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						//$('h1, .p').fadeIn("slow");
+						//$('.h1-desk, .p').fadeIn("slow");
 					//});		
 
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
@@ -160,7 +381,7 @@
 						//	}, 800);
 						
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -181,7 +402,9 @@
 					titulo = "Apresentação";
 					link = "#apresentacao";
 
+				    $('.go-top').attr("onclick", "handle(handle, 6); handledot(3,titulo)");
 				    $('.go-to').attr("onclick", "handle(handle, 18); handledot(3,titulo)");
+
 
 					$("body").css("background", "#B6D852");
 
@@ -199,10 +422,10 @@
 
 					
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
@@ -220,7 +443,7 @@
 							}, 800);
 						
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -242,6 +465,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Reitor";
 					link = "#reitor";
+					$('.go-top').attr("onclick", "handle(handle, 12); handledot(4,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 24); handledot(4,titulo)");
 					$("body").css("background", "#E9DDAB");
 					//$(".metade-esquerda").css("background", "purple");
@@ -261,10 +485,10 @@
 						handledot(3,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -280,7 +504,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 						$("#foto3").attr("src","img/ic-3.png");
@@ -300,6 +524,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Numeros";
 					link = "#numeros";
+					$('.go-top').attr("onclick", "handle(handle, 18); handledot(5,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 30); handledot(5,titulo)");
 
 					$("body").css("background","#65DFA4");
@@ -317,10 +542,10 @@
 						handledot(4,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -337,7 +562,7 @@
 							}, 800);
 						
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -359,6 +584,7 @@
 					titulo = "Objetivo";
 					link = "#objetivo";
 
+					$('.go-top').attr("onclick", "handle(handle, 24); handledot(7,titulo)");		
 					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7,titulo)");		
 
 					$("body").css("background", "#EAEBDA");
@@ -373,10 +599,10 @@
 						handledot(5,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -392,7 +618,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 					break;
 
@@ -403,6 +629,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Aplicação";
 					link = "#aplicacao";
+					$('.go-top').attr("onclick", "handle(handle, 30); handledot(7,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 42); handledot(7,titulo)");
 					$("body").css("background", "black");
 					
@@ -417,10 +644,10 @@
 						handledot(6,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -436,7 +663,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -457,6 +684,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Atuação";
 					link = "#atuacao";
+					$('.go-top').attr("onclick", "handle(handle, 36); handledot(8,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 48); handledot(8,titulo)");
 					$("body").css("background", "#B1925A");
 					
@@ -472,10 +700,10 @@
 						handledot(7,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -491,7 +719,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -512,6 +740,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Meta";
 					link = "#meta";
+					$('.go-top').attr("onclick", "handle(handle, 42); handledot(9,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 54); handledot(9,titulo)");
 					$("body").css("background", "#95EAF1");
 					
@@ -527,10 +756,10 @@
 						handledot(8,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -546,7 +775,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -567,6 +796,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Atividades";
 					link = "#atividades";
+					$('.go-top').attr("onclick", "handle(handle, 48); handledot(10,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 60); handledot(10,titulo)");
 
 					$("body").css("background", "#F4F3B9");
@@ -582,10 +812,10 @@
 						handledot(9, titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -601,7 +831,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -621,6 +851,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Ensino";
 					link = "#ensino";
+					$('.go-top').attr("onclick", "handle(handle, 54); handledot(11,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 66); handledot(11,titulo)");
 					$("body").css("background", "#DBE2FF");
 					
@@ -636,10 +867,10 @@
 						handledot(10,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -655,7 +886,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -677,6 +908,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "CEAD";
 					link = "#cead";
+					$('.go-top').attr("onclick", "handle(handle, 60); handledot(12,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 72); handledot(12,titulo)");
 					$("body").css("background", "#EF729C");
 					
@@ -692,10 +924,10 @@
 
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -711,7 +943,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -732,6 +964,7 @@
 				paragrafo = "Novo parágrafo";
 				titulo = "Pesquisa";
 				link = "#pesquisa";						
+				$('.go-top').attr("onclick", "handle(handle, 66); handledot(13,titulo)");
 				$('.go-to').attr("onclick", "handle(handle, 78); handledot(13,titulo)");
 				$("body").css("background", "#96EAF4");
 
@@ -746,10 +979,10 @@
 					
 
 					/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-					$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+					$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});						
 					/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -764,7 +997,7 @@
 						$( ".metade-direita" ).animate({
 							  opacity: 1
 							}, 800);/* MUDA O LINK DOS BOTOES */
-					$('a').attr("href", link);
+					$('.b-desk').attr("href", link);
 					/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 					$("#foto2").attr("src","img/ic-6.png");
 					$("#foto2").attr("id", "foto2");
@@ -781,6 +1014,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Pós";
 					link = "#pos";
+					$('.go-top').attr("onclick", "handle(handle, 72); handledot(14, titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 84); handledot(14, titulo)");
 					
 					$("body").css("background", "#B0EBD1");
@@ -797,10 +1031,10 @@
 						handledot(13,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -816,7 +1050,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 						
@@ -836,6 +1070,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "PGS";
 					link = "#pgs";
+					$('.go-top').attr("onclick", "handle(handle, 78); handledot(15,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 90); handledot(15,titulo)");
 					$("body").css("background", "#2F9CB2");
 					
@@ -850,10 +1085,10 @@
 						handledot(14,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -869,7 +1104,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -888,6 +1123,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Hospital";
 					link = "#hospital";
+					$('.go-top').attr("onclick", "handle(handle, 84); handledot(16,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 96); handledot(16,titulo)");
 					$("body").css("background", "#97E39B");
 					
@@ -903,10 +1139,10 @@
 						handledot(15,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -922,7 +1158,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -940,6 +1176,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Extensão";
 					link = "#extensao";
+					$('.go-top').attr("onclick", "handle(handle, 90); handledot(17,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 102); handledot(17,titulo)");
 					$("body").css("background", "#E1D7BC");
 					
@@ -955,10 +1192,10 @@
 						handledot(16,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -974,7 +1211,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 						$("#foto3").attr("src","img/ic-2.png");
@@ -992,6 +1229,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Biblioteca";
 					link = "#biblioteca";
+					$('.go-top').attr("onclick", "handle(handle, 96); handledot(18,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 108); handledot(18,titulo)");
 					$("body").css("background", "#4690B5");
 					
@@ -1007,10 +1245,10 @@
 						handledot(17,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1026,7 +1264,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1045,6 +1283,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Editora";
 					link = "#editora";
+					$('.go-top').attr("onclick", "handle(handle, 102); handledot(19,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 114); handledot(19,titulo)");
 					$("body").css("background", "#F2F1DD");
 					
@@ -1059,10 +1298,10 @@
 						handledot(18,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1078,7 +1317,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1098,6 +1337,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Documentação";
 					link = "#documentacao";
+					$('.go-top').attr("onclick", "handle(handle, 108); handledot(20,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 120); handledot(20,titulo)");
 					$("body").css("background", "#93E6EE");
 					
@@ -1113,10 +1353,10 @@
 					
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1132,7 +1372,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1152,6 +1392,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Imprensa";
 					link = "#imprensa";
+					$('.go-top').attr("onclick", "handle(handle, 114); handledot(21,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 126); handledot(21,titulo)");
 					$("body").css("background", "#EAEBBF");
 					
@@ -1166,10 +1407,10 @@
 						handledot(20,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1185,7 +1426,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1205,6 +1446,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Rádio";
 					link = "#radio";
+					$('.go-top').attr("onclick", "handle(handle, 120); handledot(22,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 132); handledot(22,titulo)");
 					$("body").css("background", "#B6D3E4");
 					
@@ -1219,10 +1461,10 @@
 						handledot(21,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1238,7 +1480,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1258,6 +1500,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Cotec";
 					link = "#cotec";
+					$('.go-top').attr("onclick", "handle(handle, 126); handledot(23,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 138); handledot(23,titulo)");
 					$("body").css("background", "#E7E076");
 					
@@ -1272,10 +1515,10 @@
 						handledot(22,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1291,7 +1534,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 						$("#foto3").attr("src","img/ic-3.png");
@@ -1310,6 +1553,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Intercâmbio";
 					link = "#intercambio";
+					$('.go-top').attr("onclick", "handle(handle, 132); handledot(24,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 144); handledot(24,titulo)");
 					$("body").css("background", "#D522DE");
 					
@@ -1324,10 +1568,10 @@
 						handledot(23,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1343,7 +1587,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1362,6 +1606,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "IPC";
 					link = "#ipc";
+					$('.go-top').attr("onclick", "handle(handle, 138); handledot(25,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 150); handledot(25,titulo)");
 					$("body").css("background", "#75DD6A");
 					
@@ -1376,10 +1621,10 @@
 						handledot(24,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1395,7 +1640,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1414,6 +1659,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Jurídico";
 					link = "#juridico";
+					$('.go-top').attr("onclick", "handle(handle, 144); handledot(26,titulo)");
 					$('.go-to').attr("onclick", "handle(handle, 156); handledot(26,titulo)");
 					$("body").css("background", "#C369E5");
 					
@@ -1428,10 +1674,10 @@
 						handledot(25,titulo);
 
 						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-						$('h1, .p').fadeOut("slow", function(){
-						$('h1').html(titulo);
+						$('.h1-desk, .p').fadeOut("slow", function(){
+						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
-						$('h1, .p').fadeIn("slow");
+						$('.h1-desk, .p').fadeIn("slow");
 					});		
 						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1447,7 +1693,7 @@
 							  opacity: 1
 							}, 800);
 						/* MUDA O LINK DOS BOTOES */
-						$('a').attr("href", link);
+						$('.b-desk').attr("href", link);
 
 						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1466,6 +1712,7 @@
 						paragrafo = "Novo parágrafo";
 						titulo = "Avaliação";
 						link = "#avaliacao";
+						$('.go-top').attr("onclick", "handle(handle, 150); handledot(27,titulo)");
 						$('.go-to').attr("onclick", "handle(handle, 162); handledot(27,titulo)");
 						$("body").css("background", "#CAF3F9");
 						
@@ -1482,10 +1729,10 @@
 						
 
 							/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-							$('h1, p').fadeOut("slow", function(){
-								$('h1').html(titulo);
+							$('.h1-desk, p').fadeOut("slow", function(){
+								$('.h1-desk').html(titulo);
 								$('.p').html(paragrafo);
-								$('h1, p').fadeIn("slow");
+								$('.h1-desk, p').fadeIn("slow");
 							});
 							/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1501,7 +1748,7 @@
 							  opacity: 1
 							}, 800);
 							/* MUDA O LINK DOS BOTOES */
-							$('a').attr("href", link);
+							$('.b-desk').attr("href", link);
 
 							/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1521,6 +1768,7 @@
 						titulo = "Tecnologia";
 						link = "#tecnologia";
 
+						$('.go-top').attr("onclick", "handle(handle, 156); handledot(28,titulo)");
 						$('.go-to').attr("onclick", "handle(handle, 168); handledot(28,titulo)");
 						$("body").css("background", "#DCECF4");
 						
@@ -1538,10 +1786,10 @@
 						
 
 							/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-							$('h1, p').fadeOut("slow", function(){
-								$('h1').html(titulo);
+							$('.h1-desk, p').fadeOut("slow", function(){
+								$('.h1-desk').html(titulo);
 								$('.p').html(paragrafo);
-								$('h1, p').fadeIn("slow");
+								$('.h1-desk, p').fadeIn("slow");
 							});
 							/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1557,7 +1805,7 @@
 							  opacity: 1
 							}, 800);
 							/* MUDA O LINK DOS BOTOES */
-							$('a').attr("href", link);
+							$('.b-desk').attr("href", link);
 
 							/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1576,6 +1824,7 @@
 
 						titulo = "Sustentabilidade";
 						link = "#sustentabilidade";
+						$('.go-top').attr("onclick", "handle(handle, 162); handledot(29, titulo)");	
 						$('.go-to').attr("onclick", "handle(handle, 174); handledot(29, titulo)");	
 
 						$(".metade-esquerda").css("background", "#52BF56");
@@ -1597,10 +1846,10 @@
 
 
 							/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-							$('h1, p').fadeOut("slow", function(){
-								$('h1').html(titulo);
+							$('.h1-desk, p').fadeOut("slow", function(){
+								$('.h1-desk').html(titulo);
 								$('.p').html(paragrafo);
-								$('h1, p').fadeIn("slow");
+								$('.h1-desk, p').fadeIn("slow");
 							});
 							/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1616,7 +1865,7 @@
 							  opacity: 1
 							}, 800);
 							/* MUDA O LINK DOS BOTOES */
-							$('a').attr("href", link);
+							$('.b-desk').attr("href", link);
 
 							/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
@@ -1636,6 +1885,7 @@
 						titulo = "Hino";
 						link = "#hino";
 
+						$('.go-top').attr("onclick", "handle(handle, 168); handledot(2,titulo)");	
 						$('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");	
 
 						
@@ -1653,10 +1903,10 @@
 							handledot(29,titulo);
 
 							/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
-							$('h1, p').fadeOut("slow", function(){
-								$('h1').html(titulo);
+							$('.h1-desk, p').fadeOut("slow", function(){
+								$('.h1-desk').html(titulo);
 								$('.p').html(paragrafo);
-								$('h1, p').fadeIn("slow");
+								$('.h1-desk, p').fadeIn("slow");
 							});
 							/* MUDA O BACKGRDOUND DA METADE DIREITA*/
 						
@@ -1672,7 +1922,7 @@
 							  opacity: 1
 							}, 800);
 							/* MUDA O LINK DOS BOTOES */
-							$('a').attr("href", link);
+							$('.b-desk').attr("href", link);
 
 							/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
 
