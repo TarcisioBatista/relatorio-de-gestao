@@ -291,7 +291,7 @@
 		        
 		  		
 
-		        $('.text').html('para baixo'+posicao);
+		      //  $('.text').html('para baixo'+posicao);
 
 		        if(ver == 2){
 					posicao = 156;
@@ -320,7 +320,7 @@
 		        posicao = posicao - 1;
 
 		
-		        $('.text').html('para cima'+posicao);
+		      //  $('.text').html('para cima'+posicao);
 
 				if(ver == 2){
 					posicao = 156;
@@ -342,7 +342,7 @@
 					break;	
 
 				case 6:		
-					//$(".fa-circle").css("color", "#105228");
+					//$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#105228");
 					paragrafo = "Novo parágrafo";
 					titulo = "Relatório de Gestão";
 					link = "#capa";
@@ -396,7 +396,7 @@
 					break;	
 
 				case 12:		
-					$(".fa-circle").css("color", "#105228");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#105228");
 					
 					paragrafo = "Novo parágrafo";
 					titulo = "Apresentação";
@@ -461,7 +461,7 @@
 
 				case 18:
 
-					$(".fa-circle").css("color", "#9E2020");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#9E2020");
 					paragrafo = "Novo parágrafo";
 					titulo = "Reitor";
 					link = "#reitor";
@@ -520,7 +520,7 @@
 
 				case 24:
 
-					$(".fa-circle").css("color", "#0A3C07");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#0A3C07");
 					paragrafo = "Novo parágrafo";
 					titulo = "Numeros";
 					link = "#numeros";
@@ -579,7 +579,7 @@
 
 				case 30:
 
-					$(".fa-circle").css("color", "#288183");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#288183");
 					paragrafo = "Novo parágrafo";
 					titulo = "Objetivo";
 					link = "#objetivo";
@@ -625,7 +625,7 @@
 
 				case 36:
 
-					$(".fa-circle").css("color", "#438FCF");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#438FCF");
 					paragrafo = "Novo parágrafo";
 					titulo = "Aplicação";
 					link = "#aplicacao";
@@ -680,7 +680,7 @@
 
 				case 42:
 
-					$(".fa-circle").css("color","#3F4334");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#3F4334");
 					paragrafo = "Novo parágrafo";
 					titulo = "Atuação";
 					link = "#atuacao";
@@ -736,7 +736,7 @@
 
 				case 48:
 
-					$(".fa-circle").css("color","#0981B1");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0981B1");
 					paragrafo = "Novo parágrafo";
 					titulo = "Meta";
 					link = "#meta";
@@ -792,7 +792,7 @@
 
 				case 54:
 
-					$(".fa-circle").css("color","#AB7758");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#AB7758");
 					paragrafo = "Novo parágrafo";
 					titulo = "Atividades";
 					link = "#atividades";
@@ -847,7 +847,7 @@
 
 				case 60:
 
-					$(".fa-circle").css("color","#0D0E0E");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0D0E0E");
 					paragrafo = "Novo parágrafo";
 					titulo = "Ensino";
 					link = "#ensino";
@@ -904,7 +904,7 @@
 				case 66:
 
 
-					$(".fa-circle").css("color","#270202");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#270202");
 					paragrafo = "Novo parágrafo";
 					titulo = "CEAD";
 					link = "#cead";
@@ -960,7 +960,7 @@
 				case 72:
 
 
-				$(".fa-circle").css("color","#0977D9");
+				$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0977D9");
 				paragrafo = "Novo parágrafo";
 				titulo = "Pesquisa";
 				link = "#pesquisa";						
@@ -1010,7 +1010,7 @@
 
 
 				case 78:
-					$(".fa-circle").css("color","#08775E");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#08775E");
 					paragrafo = "Novo parágrafo";
 					titulo = "Pós";
 					link = "#pos";
@@ -1066,7 +1066,7 @@
 
 				case 84:
 
-						$(".fa-circle").css("color","#171717");
+						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#171717");
 					paragrafo = "Novo parágrafo";
 					titulo = "PGS";
 					link = "#pgs";
@@ -1119,7 +1119,7 @@
 						break;
 
 				case 90:
-					$(".fa-circle").css("color","#0F7A81");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0F7A81");
 					paragrafo = "Novo parágrafo";
 					titulo = "Hospital";
 					link = "#hospital";
@@ -1172,7 +1172,7 @@
 
 						break;
 				case 96:
-					$(".fa-circle").css("color","#114E29");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#114E29");
 					paragrafo = "Novo parágrafo";
 					titulo = "Extensão";
 					link = "#extensao";
@@ -1225,7 +1225,7 @@
 						break;
 
 				case 102:
-					$(".fa-circle").css("color","#3E5C8F");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#3E5C8F");
 					paragrafo = "Novo parágrafo";
 					titulo = "Biblioteca";
 					link = "#biblioteca";
@@ -1279,7 +1279,7 @@
 						break;
 
 				case 108:
-					$(".fa-circle").css("color","#697137");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#697137");
 					paragrafo = "Novo parágrafo";
 					titulo = "Editora";
 					link = "#editora";
@@ -1333,7 +1333,7 @@
 
 				case 114:
 
-					$(".fa-circle").css("color","#1B5877");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#1B5877");
 					paragrafo = "Novo parágrafo";
 					titulo = "Documentação";
 					link = "#documentacao";
@@ -1388,7 +1388,7 @@
 
 				case 120:
 
-					$(".fa-circle").css("color","#397451");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#397451");
 					paragrafo = "Novo parágrafo";
 					titulo = "Imprensa";
 					link = "#imprensa";
@@ -1442,7 +1442,7 @@
 
 				case 126:
 
-					$(".fa-circle").css("color","#185955");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#185955");
 					paragrafo = "Novo parágrafo";
 					titulo = "Rádio";
 					link = "#radio";
@@ -1495,7 +1495,7 @@
 						break;
 
 				case 132:
-					$(".fa-circle").css("color","#496918");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#496918");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Cotec";
@@ -1548,7 +1548,7 @@
 						break;
 
 				case 138:
-					$(".fa-circle").css("color","#FCF7FF");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#FCF7FF");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Intercâmbio";
@@ -1602,7 +1602,7 @@
 
 				case 144:
 
-					$(".fa-circle").css("color","#0E520D");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0E520D");
 					paragrafo = "Novo parágrafo";
 					titulo = "IPC";
 					link = "#ipc";
@@ -1655,7 +1655,7 @@
 						break;
 
 				case 150:
-					$(".fa-circle").css("color","#141514");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#141514");
 					paragrafo = "Novo parágrafo";
 					titulo = "Jurídico";
 					link = "#juridico";
@@ -1708,7 +1708,7 @@
 						break;
 
 					case 156:
-						$(".fa-circle").css("color","#51A4EA");
+						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#51A4EA");
 						paragrafo = "Novo parágrafo";
 						titulo = "Avaliação";
 						link = "#avaliacao";
@@ -1763,7 +1763,7 @@
 							break;
 
 					case 162:
-						$(".fa-circle").css("color","#51A4EA");
+						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#51A4EA");
 						paragrafo = "Novo parágrafo";
 						titulo = "Tecnologia";
 						link = "#tecnologia";
@@ -1819,7 +1819,7 @@
 							break;
 
 					case 168:
-						$(".fa-circle").css("color","#FBFBFB");
+						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#FBFBFB");
 						paragrafo = "Novo parágrafo";
 
 						titulo = "Sustentabilidade";
@@ -1879,7 +1879,7 @@
 
 							break;
 					case 174:
-						$(".fa-circle").css("color","#191D74");
+						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#191D74");
 						paragrafo = "Novo parágrafo";
 
 						titulo = "Hino";
