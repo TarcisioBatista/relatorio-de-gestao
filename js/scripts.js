@@ -65,6 +65,7 @@
 			$(".list_effect9").animate({ opacity: 0,},200);
 		});
 
+
 		//-------------------------------------------------
 		$('#list10').hover(function(){
 			$(".list_effect10").animate({ opacity: 1,},200);
@@ -233,8 +234,6 @@
 				
 				}
 			}
-
-			
 		
 	}
 
@@ -341,10 +340,10 @@
 					posicao = 161;			
 					break;	
 
-				case 6:		
+				/*case 6:		
 					//$(".fa-circle").css("color", "#105228");
 					paragrafo = "Novo parágrafo";
-					titulo = "Relatório de Gestão";
+					titulo = "Resultados 2015";
 					link = "#capa";
 					$("body").css("background", "#fff");
 
@@ -355,18 +354,18 @@
 
 					
 					
-						handledot(1,titulo);
+						//handledot(1,titulo);
 
 					
 						
-						/* ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO */
+						// ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO 
 						//$('.h1-desk, .p').fadeOut("slow", function(){
 						$('.h1-desk').html(titulo);
 						$('.p').html(paragrafo);
 						//$('.h1-desk, .p').fadeIn("slow");
 					//});		
 
-						/* MUDA O BACKGRDOUND DA METADE DIREITA*/
+						// MUDA O BACKGRDOUND DA METADE DIREITA
 						
 						//$( ".metade-direita" ).animate({
 							
@@ -379,23 +378,23 @@
 						//$( ".metade-direita" ).animate({
 						//	  opacity: 1
 						//	}, 800);
-						
-						/* MUDA O LINK DOS BOTOES */
+					
+						// MUDA O LINK DOS BOTOES 
 						$('.b-desk').attr("href", link);
 
-						/* DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO */
+						//DEFINE OS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO 
 
 						$("#foto3").attr("src","img/ic-2.png");
 						$("#foto3").attr("id", "foto6");
 
 						$("#foto6").attr("src","img/ic-5.png");
 						$("#foto6").attr("id", "foto3");
-						/* FIM DA DEFINICAO DOS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO*/
+						// FIM DA DEFINICAO DOS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO 
 
 
-					break;	
+					break;	*/
 
-				case 12:		
+				case 6:		
 					$(".fa-circle").css("color", "#105228");
 					
 					paragrafo = "Novo parágrafo";
