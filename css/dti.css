@@ -39,7 +39,8 @@ body{
 	height: 50px;
 	border-radius: 30px;
 	/*border: 2px solid black;*/
-background: rgba(255,255,255,0.4);
+    /*background: rgba(255,255,255,0.4);*/
+    cursor:pointer;
 	position: fixed;
 	z-index: 1003;
 	left:48%;
@@ -62,6 +63,7 @@ background: rgba(255,255,255,0.4);
 	border-radius: 30px;
 	/*border: 2px solid black;*/
 	/*background: rgba(255,255,255,0.4);*/
+	cursor:pointer;
 	position: fixed;
 	z-index: 1003;
 	left:48%;
