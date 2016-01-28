@@ -3,7 +3,7 @@
 
 
 
-		$('#list1').hover(function(){
+		/*$('#list1').hover(function(){
 			$(".list_effect1").animate({ opacity: 1,},200);
 		},function(){
 			$(".list_effect1").animate({ opacity: 0,},200);
@@ -197,11 +197,9 @@
 		$(".list_effect28").animate({ opacity: 1,},200);
 		},function(){
 			$(".list_effect28").animate({ opacity: 0,},200);
-		});
+		});*/
 
 		//-------------------------------------------------
-
-
 
 
 	});
@@ -214,20 +212,18 @@
 	);
 
 
-
-
-
 	function handledot (item, listname){
 			var num_listas;
 			item = item-1;
 			$("#list"+item).css(efeitolista);
-			$(".list_effect"+item).animate({opacity: 1,	},4000);	
+			$(".list_effect"+item).animate({opacity: 1,	},4000);
 
 
 			for(num_listas = 1; num_listas < 29; num_listas++){		
 				//alert(num_listas);
 				if(num_listas != item){
 					$("#list"+num_listas).css(listapadrao);
+					$(".list_effect"+num_listas).animate({opacity: 0.5,},2000);
 					//$("#list"+num_listas).html("");
 					
 					
@@ -338,23 +334,19 @@
 
 
 					posicao = 161;			
-					break;	
-
-<<<<<<< HEAD
+					break;
+						
 				/*case 6:		
 					//$(".fa-circle").css("color", "#105228");
-=======
-				case 6:		
-					//$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#105228");
->>>>>>> b3ec8ff509447b79aef3a42104ecf78aead3d014
+
 					paragrafo = "Novo parágrafo";
 					titulo = "Resultados 2015";
 					link = "#capa";
 					$("body").css("background", "#fff");
 
-					$('.go-top').attr("onclick", "handle(handle, 0); handledot(2,titulo)");	
+					$('.go-top').attr("onclick", "handle(handle, 0);");	
 
-				    $('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");					
+				    $('.go-to').attr("onclick", "handle(handle, 12);");					
 					$(".metade-esquerda").css({"background": "url(img/relatorio/capa.png)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
 					
@@ -399,20 +391,16 @@
 
 					break;	*/
 
-<<<<<<< HEAD
-				case 6:		
-					$(".fa-circle").css("color", "#105228");
-=======
 				case 12:		
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#105228");
->>>>>>> b3ec8ff509447b79aef3a42104ecf78aead3d014
+					$(".fa-circle").css("color", "#105228");
+
 					
 					paragrafo = "Novo parágrafo";
 					titulo = "Apresentação";
 					link = "#apresentacao";
 
-				    $('.go-top').attr("onclick", "handle(handle, 6); handledot(3,titulo)");
-				    $('.go-to').attr("onclick", "handle(handle, 18); handledot(3,titulo)");
+				    $('.go-top').attr("onclick", "handle(handle, 6);");
+				    $('.go-to').attr("onclick", "handle(handle, 18);");
 
 
 					$("body").css("background", "#B6D852");
@@ -474,8 +462,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Reitor";
 					link = "#reitor";
-					$('.go-top').attr("onclick", "handle(handle, 12); handledot(4,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 24); handledot(4,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 12);");
+					$('.go-to').attr("onclick", "handle(handle, 24);");
 					$("body").css("background", "#E9DDAB");
 					//$(".metade-esquerda").css("background", "purple");
 
@@ -533,8 +521,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Numeros";
 					link = "#numeros";
-					$('.go-top').attr("onclick", "handle(handle, 18); handledot(5,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 30); handledot(5,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 18);");
+					$('.go-to').attr("onclick", "handle(handle, 30);");
 
 					$("body").css("background","#65DFA4");
 
@@ -593,8 +581,8 @@
 					titulo = "Objetivo";
 					link = "#objetivo";
 
-					$('.go-top').attr("onclick", "handle(handle, 24); handledot(7,titulo)");		
-					$('.go-to').attr("onclick", "handle(handle, 36); handledot(7,titulo)");		
+					$('.go-top').attr("onclick", "handle(handle, 24);");		
+					$('.go-to').attr("onclick", "handle(handle, 36);");		
 
 					$("body").css("background", "#EAEBDA");
 					$(".metade-esquerda").toggle("clip", 800, function(){
@@ -638,8 +626,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Aplicação";
 					link = "#aplicacao";
-					$('.go-top').attr("onclick", "handle(handle, 30); handledot(7,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 42); handledot(7,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 30);");
+					$('.go-to').attr("onclick", "handle(handle, 42);");
 					$("body").css("background", "black");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -693,8 +681,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Atuação";
 					link = "#atuacao";
-					$('.go-top').attr("onclick", "handle(handle, 36); handledot(8,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 48); handledot(8,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 36);");
+					$('.go-to').attr("onclick", "handle(handle, 48);");
 					$("body").css("background", "#B1925A");
 					
 					$(".metade-esquerda").toggle("puff", 1000, function(){
@@ -749,8 +737,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Meta";
 					link = "#meta";
-					$('.go-top').attr("onclick", "handle(handle, 42); handledot(9,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 54); handledot(9,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 42);");
+					$('.go-to').attr("onclick", "handle(handle, 54);");
 					$("body").css("background", "#95EAF1");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -805,8 +793,10 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Atividades";
 					link = "#atividades";
-					$('.go-top').attr("onclick", "handle(handle, 48); handledot(10,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 60); handledot(10,titulo)");
+					$('.go-top').attr("onclick", "location.reload();");
+					$('.go-to').attr("onclick", "handle(handle, 60);");
+					$('.go-top').css("visibility", "visible");
+
 
 					$("body").css("background", "#F4F3B9");
 					
@@ -860,8 +850,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Ensino";
 					link = "#ensino";
-					$('.go-top').attr("onclick", "handle(handle, 54); handledot(11,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 66); handledot(11,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 54);");
+					$('.go-to').attr("onclick", "handle(handle, 66);");
 					$("body").css("background", "#DBE2FF");
 					
 					$(".metade-esquerda").toggle("clip", 1000, function(){
@@ -917,8 +907,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "CEAD";
 					link = "#cead";
-					$('.go-top').attr("onclick", "handle(handle, 60); handledot(12,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 72); handledot(12,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 60);");
+					$('.go-to').attr("onclick", "handle(handle, 72);");
 					$("body").css("background", "#EF729C");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -973,8 +963,8 @@
 				paragrafo = "Novo parágrafo";
 				titulo = "Pesquisa";
 				link = "#pesquisa";						
-				$('.go-top').attr("onclick", "handle(handle, 66); handledot(13,titulo)");
-				$('.go-to').attr("onclick", "handle(handle, 78); handledot(13,titulo)");
+				$('.go-top').attr("onclick", "handle(handle, 66);");
+				$('.go-to').attr("onclick", "handle(handle, 78);");
 				$("body").css("background", "#96EAF4");
 
 				$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1023,8 +1013,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Pós";
 					link = "#pos";
-					$('.go-top').attr("onclick", "handle(handle, 72); handledot(14, titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 84); handledot(14, titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 74)");
+					$('.go-to').attr("onclick", "handle(handle, 84)");
 					
 					$("body").css("background", "#B0EBD1");
 
@@ -1075,12 +1065,12 @@
 
 				case 84:
 
-						$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#171717");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#171717");
 					paragrafo = "Novo parágrafo";
 					titulo = "PGS";
 					link = "#pgs";
-					$('.go-top').attr("onclick", "handle(handle, 78); handledot(15,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 90); handledot(15,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 78);");
+					$('.go-to').attr("onclick", "handle(handle, 90);");
 					$("body").css("background", "#2F9CB2");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1132,8 +1122,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Hospital";
 					link = "#hospital";
-					$('.go-top').attr("onclick", "handle(handle, 84); handledot(16,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 96); handledot(16,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 84);");
+					$('.go-to').attr("onclick", "handle(handle, 96);");
 					$("body").css("background", "#97E39B");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1185,8 +1175,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Extensão";
 					link = "#extensao";
-					$('.go-top').attr("onclick", "handle(handle, 90); handledot(17,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 102); handledot(17,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 90);");
+					$('.go-to').attr("onclick", "handle(handle, 102);");
 					$("body").css("background", "#E1D7BC");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1238,8 +1228,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Biblioteca";
 					link = "#biblioteca";
-					$('.go-top').attr("onclick", "handle(handle, 96); handledot(18,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 108); handledot(18,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 96);");
+					$('.go-to').attr("onclick", "handle(handle, 108);");
 					$("body").css("background", "#4690B5");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1292,8 +1282,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Editora";
 					link = "#editora";
-					$('.go-top').attr("onclick", "handle(handle, 102); handledot(19,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 114); handledot(19,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 102)");
+					$('.go-to').attr("onclick", "handle(handle, 114)");
 					$("body").css("background", "#F2F1DD");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1346,8 +1336,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Documentação";
 					link = "#documentacao";
-					$('.go-top').attr("onclick", "handle(handle, 108); handledot(20,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 120); handledot(20,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 108)");
+					$('.go-to').attr("onclick", "handle(handle, 120)");
 					$("body").css("background", "#93E6EE");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1401,8 +1391,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Imprensa";
 					link = "#imprensa";
-					$('.go-top').attr("onclick", "handle(handle, 114); handledot(21,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 126); handledot(21,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 114)");
+					$('.go-to').attr("onclick", "handle(handle, 126)");
 					$("body").css("background", "#EAEBBF");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1455,8 +1445,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Rádio";
 					link = "#radio";
-					$('.go-top').attr("onclick", "handle(handle, 120); handledot(22,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 132); handledot(22,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 120)");
+					$('.go-to').attr("onclick", "handle(handle, 132)");
 					$("body").css("background", "#B6D3E4");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1509,8 +1499,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Cotec";
 					link = "#cotec";
-					$('.go-top').attr("onclick", "handle(handle, 126); handledot(23,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 138); handledot(23,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 126)");
+					$('.go-to').attr("onclick", "handle(handle, 138)");
 					$("body").css("background", "#E7E076");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1562,8 +1552,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Intercâmbio";
 					link = "#intercambio";
-					$('.go-top').attr("onclick", "handle(handle, 132); handledot(24,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 144); handledot(24,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 132)");
+					$('.go-to').attr("onclick", "handle(handle, 144)");
 					$("body").css("background", "#D522DE");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1615,8 +1605,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "IPC";
 					link = "#ipc";
-					$('.go-top').attr("onclick", "handle(handle, 138); handledot(25,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 150); handledot(25,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 138)");
+					$('.go-to').attr("onclick", "handle(handle, 150)");
 					$("body").css("background", "#75DD6A");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1668,8 +1658,8 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Jurídico";
 					link = "#juridico";
-					$('.go-top').attr("onclick", "handle(handle, 144); handledot(26,titulo)");
-					$('.go-to').attr("onclick", "handle(handle, 156); handledot(26,titulo)");
+					$('.go-top').attr("onclick", "handle(handle, 144)");
+					$('.go-to').attr("onclick", "handle(handle, 156)");
 					$("body").css("background", "#C369E5");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1721,8 +1711,8 @@
 						paragrafo = "Novo parágrafo";
 						titulo = "Avaliação";
 						link = "#avaliacao";
-						$('.go-top').attr("onclick", "handle(handle, 150); handledot(27,titulo)");
-						$('.go-to').attr("onclick", "handle(handle, 162); handledot(27,titulo)");
+						$('.go-top').attr("onclick", "handle(handle, 150)");
+						$('.go-to').attr("onclick", "handle(handle, 162)");
 						$("body").css("background", "#CAF3F9");
 						
 						$(".metade-esquerda").toggle("puff", 800, function(){
@@ -1777,8 +1767,8 @@
 						titulo = "Tecnologia";
 						link = "#tecnologia";
 
-						$('.go-top').attr("onclick", "handle(handle, 156); handledot(28,titulo)");
-						$('.go-to').attr("onclick", "handle(handle, 168); handledot(28,titulo)");
+						$('.go-top').attr("onclick", "handle(handle, 156)");
+						$('.go-to').attr("onclick", "handle(handle, 168)");
 						$("body").css("background", "#DCECF4");
 						
 						$(".metade-esquerda").toggle("puff", 800, function(){
@@ -1833,8 +1823,8 @@
 
 						titulo = "Sustentabilidade";
 						link = "#sustentabilidade";
-						$('.go-top').attr("onclick", "handle(handle, 162); handledot(29, titulo)");	
-						$('.go-to').attr("onclick", "handle(handle, 174); handledot(29, titulo)");	
+						$('.go-top').attr("onclick", "handle(handle, 162);");	
+						$('.go-to').attr("onclick", "handle(handle, 174);");	
 
 						$(".metade-esquerda").css("background", "#52BF56");
 						
@@ -1894,8 +1884,8 @@
 						titulo = "Hino";
 						link = "#hino";
 
-						$('.go-top').attr("onclick", "handle(handle, 168); handledot(2,titulo)");	
-						$('.go-to').attr("onclick", "handle(handle, 12); handledot(2,titulo)");	
+						$('.go-top').attr("onclick", "handle(handle, 168);");
+						$('.go-to').attr("onclick", "handle(handle, 54);");	
 
 						
 						$("body").css("background", "#AC9ED1");

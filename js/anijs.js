@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
 AniJS - http://anijs.github.io
 Licensed under the MIT license
@@ -2986,4 +2985,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     return AniJS;
 });
->>>>>>> 0f4121685c199df82209d87576f8111f4e01fc7f
