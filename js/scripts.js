@@ -221,7 +221,9 @@
 					$("body").css("background", "#F0F0B2");
 
 					$(".metade-esquerda").toggle("puff", 800, function(){
-						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("margin-top", "180px");
+						$('.encapsulador-conteudo').css("color", "#000");
+
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Atividades.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -289,6 +291,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 800, function(){
 						$('.encapsulador-conteudo').css("margin-top", "80px");
+						$('.encapsulador-conteudo').css("color", "#000");
+
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Ensino.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -339,7 +343,7 @@
 
 					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#000");
 					paragrafo = "Novo parágrafo";
-					titulo = "Educação a Distância";
+					titulo = "Educação à Distância";
 					link = "#cead";
 					$('.go-top').attr("onclick", "handle(handle, 18);");
 					$('.go-to').attr("onclick", "handle(handle, 30);");
@@ -348,7 +352,9 @@
 					$("body").css("background","#F287B4");
 
 					$(".metade-esquerda").toggle("size", 700, function(){
-						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("margin-top", "180px");
+						$('.encapsulador-conteudo').css("color", "#000");
+
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/cead.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("size", 700, function(){
@@ -409,6 +415,8 @@
 					$("body").css("background", "#ACEDCF");
 					$(".metade-esquerda").toggle("clip", 800, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "100px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/pos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("clip", 800, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/pos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -454,6 +462,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/extensao.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/extensao.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -509,6 +519,8 @@
 					
 					$(".metade-esquerda").toggle("puff", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/pesquisa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("puff", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/pesquisa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -565,6 +577,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "150px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Biblioteca.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/Biblioteca.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -622,8 +636,9 @@
 					$("body").css("background", "#72789E");
 					
 					$(".metade-esquerda").toggle("size", 1000, function(){
-						$('.encapsulador-conteudo').css("margin-top", "200px");
 
+						$('.encapsulador-conteudo').css("margin-top", "150px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/processos_seletivos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("size", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/processos_seletivos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -677,7 +692,9 @@
 					$("body").css("background", "#86E19C");
 					
 					$(".metade-esquerda").toggle("clip", 1000, function(){
+
 						$('.encapsulador-conteudo').css("margin-top", "80px");
+						$('.encapsulador-conteudo').css("color", "#000");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/hospital.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("clip", 1000, function(){
@@ -735,8 +752,9 @@
 					$("body").css("background", "#2677CA");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
-						$('.encapsulador-conteudo').css("margin-top", "200px");
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/cepedor.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/cepedor.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -792,6 +810,9 @@
 				$("body").css("background", "#EDECD6");
 
 				$(".metade-esquerda").toggle("blind", 1000, function(){
+
+					$('.encapsulador-conteudo').css("margin-top", "160px");
+					$('.encapsulador-conteudo').css("color", "#000");
 					$(".metade-esquerda").css({"background": "url(img/relatorio/editora.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 					$(".metade-esquerda").toggle("blind", 1000, function(){					
 						$(".metade-esquerda").css({"background": "url(img/relatorio/editora.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -844,6 +865,8 @@
 
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "100px");
+						$('.encapsulador-conteudo').css("color", "#000");			
 						$(".metade-esquerda").css({"background": "url(img/relatorio/ipc.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/ipc.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});					
@@ -898,7 +921,9 @@
 					$("body").css("background", "#E44637");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						
 						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -952,9 +977,9 @@
 					$("body").css("background", "#E062EA");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+
 						$('.encapsulador-conteudo').css("margin-top", "100px");
 						$('.encapsulador-conteudo').css("color", "#000");
-
 						$(".metade-esquerda").css({"background": "url(img/relatorio/intercambio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/intercambio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -1007,9 +1032,10 @@
 					$("body").css("background", "#2729A2");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						
 						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$('.encapsulador-conteudo').css("color", "#969BD8");
-
 						$(".metade-esquerda").css({"background": "url(img/relatorio/museu.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){		
 							$(".metade-esquerda").css({"background": "url(img/relatorio/museu.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});			
@@ -1062,8 +1088,9 @@
 					$("body").css("background", "#E2BD79");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
-						$('.encapsulador-conteudo').css("color", "#000");
 
+						$('.encapsulador-conteudo').css("margin-top", "150px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/ascom.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/ascom.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
@@ -1117,8 +1144,9 @@
 					$("body").css("background", "#2FBC34");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
-						$('.encapsulador-conteudo').css("color", "#000");
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/midias_sociais.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/midias_sociais.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1173,6 +1201,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/publicidade.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/publicidade.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1228,6 +1258,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Radio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Radio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1282,6 +1314,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/imprensa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/imprensa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1336,6 +1370,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "170px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/infraestrutura.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/infraestrutura.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1389,6 +1425,8 @@
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
+						$('.encapsulador-conteudo').css("margin-top", "180px");
+						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/orcamento_financas.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/orcamento_financas.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});

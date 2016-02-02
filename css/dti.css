@@ -20,9 +20,10 @@ body{
 .metade-direita{
 	width: 50%;
 	/*height: 667px;*/
-	background: #fff;/*-image: url(../img/fundo-2.png);*/
+	background: #23257C;/*-image: url(../img/fundo-2.png);*/
 	position: fixed;
 	right:1px;
+	color: #fff;
 }
 
 .logo{
