@@ -262,6 +262,7 @@
 				if(ver > 2){
 					posicao=ver;
 				}
+
 		    
 		    }
 
