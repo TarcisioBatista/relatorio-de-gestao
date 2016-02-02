@@ -215,6 +215,8 @@
 				    $('.go-top').css("visibility", "visible");
 				    $('.time-line').css("visibility", "visible");
 				    $('.go-to i').css("font-size", "2em");
+				    $('.voltarTopo').css("visibility", "visible");
+
 
 
 
