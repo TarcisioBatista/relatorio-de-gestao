@@ -26,9 +26,6 @@
 					$("#list"+num_listas).css(listapadrao);
 					$(".list_effect"+num_listas).animate({opacity: 0.5,},2000);
 					//$("#list"+num_listas).html("");
-					
-					
-				
 				}
 			}
 		
@@ -81,7 +78,7 @@
 	    						}
 	  						}
 						}
-				sleep(1000);
+				sleep(500);
 				posicao++;
 				}
 		        posicao = posicao + 1;
@@ -204,17 +201,20 @@
 
 					break;*/
 
-				case 12:		
+				case 12:
 					$(".fa-circle").css("color", "#000");
 
 					
 					paragrafo = "Novo parágrafo";
 					titulo = "Atividades Institucionais";
 					link = "#atividades";
+					handledot(2,titulo);
 
-				    $('.go-top').attr("onclick", "handle(handle, 6);");
+				    $('.go-top').attr("onclick", "location.reload();");
 				    $('.go-to').attr("onclick", "handle(handle, 18);");
-
+				    $('.go-top').css("visibility", "visible");
+				    $('.time-line').css("visibility", "visible");
+				    $('.go-to i').css("font-size", "2em");
 
 
 
@@ -232,9 +232,6 @@
 						});	
 						
 					});
-
-						handledot(2,titulo);
-
 					
 						//ESSE SCRIPT MUDA O CONTEUDO DO TITULO E PARÁGRAFO
 						$('.h1-desk, .p').fadeOut("slow", function(){
@@ -283,7 +280,6 @@
 					$('.go-top').attr("onclick", "handle(handle, 12);");
 					$('.go-to').attr("onclick", "handle(handle, 24);");
 					$("body").css("background", "#DCE3FE");
-					$('.go-top').css("visibility", "visible");
 					//$(".metade-esquerda").css("background", "purple");
 
 					
@@ -629,7 +625,7 @@
 					paragrafo = "Novo parágrafo";
 					titulo = "Processos Seletivos";
 					link = "#processosseletivos";
-					$('.go-top').attr("onclick", "location.reload();");
+					$('.go-top').attr("onclick", "handle(handle, 48);");
 					$('.go-to').attr("onclick", "handle(handle, 60);");
 					
 
@@ -1420,7 +1416,7 @@
 					titulo = "Orçamento e Finanças";
 					link = "#orcamentoefinancas";
 					$('.go-top').attr("onclick", "handle(handle, 132)");
-					$('.go-to').attr("onclick", "handle(handle, 144)");
+					$('.go-to').attr("onclick", "location.reload()");
 					$("body").css("background", "#59CF7B");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
