@@ -245,7 +245,7 @@
 		function handle(delta, ver) {
 			
 
-		
+
 			if(posicao >= 214){
 
 		    	posicao = 214;
@@ -338,7 +338,7 @@
 					break;
 						
 				case 6:		
-					//$(".fa-circle").css("color", "#105228");
+					/*$(".fa-circle").css("color", "#105228");
 
 
 					paragrafo = "Novo parágrafo";
@@ -401,10 +401,10 @@
 						// FIM DA DEFINICAO DOS TAMANHOS DAS LOGOS DA UNIMONTES GIRANDO 
 
 
-					break;
+					break;*/
 
 				case 12:		
-					$(".fa-circle").css("color", "#105228");
+					$(".fa-circle").css("color", "#000");
 
 					
 					paragrafo = "Novo parágrafo";
@@ -417,9 +417,10 @@
 
 
 
-					$("body").css("background", "#B6D852");
+					$("body").css("background", "#F0F0B2");
 
 					$(".metade-esquerda").toggle("puff", 800, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Atividades.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -445,7 +446,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#B6D852"); //COLOCAREMOS IMAGEM OU COR
+								$(".metade-direita").css("background" ,"#F0F0B2"); //COLOCAREMOS IMAGEM OU COR
 						
 							});
 
@@ -472,18 +473,21 @@
 
 				case 18:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#9E2020");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#0E2FAF");
 					paragrafo = "Novo parágrafo";
 					titulo = "Ensino superior, profissional e tecnológico";
 					link = "#ensino";
 					$('.go-top').attr("onclick", "handle(handle, 12);");
 					$('.go-to').attr("onclick", "handle(handle, 24);");
-					$("body").css("background", "#E9DDAB");
+					$("body").css("background", "#DCE3FE");
 					$('.go-top').css("visibility", "visible");
 					//$(".metade-esquerda").css("background", "purple");
 
 					
+
+					
 					$(".metade-esquerda").toggle("blind", 800, function(){
+						$('.encapsulador-conteudo').css("margin-top", "80px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Ensino.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 
@@ -508,7 +512,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#EDE09A");
+								$(".metade-direita").css("background" ,"#DCE3FE");
 						
 							});
 
@@ -532,16 +536,18 @@
 
 				case 24:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#0A3C07");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Educação a Distância";
 					link = "#cead";
 					$('.go-top').attr("onclick", "handle(handle, 18);");
 					$('.go-to').attr("onclick", "handle(handle, 30);");
+					
 
-					$("body").css("background","#65DFA4");
+					$("body").css("background","#F287B4");
 
 					$(".metade-esquerda").toggle("size", 700, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/cead.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("size", 700, function(){
@@ -565,7 +571,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#65DFA4");
+								$(".metade-direita").css("background" ,"#F287B4");
 						
 							});
 
@@ -599,7 +605,7 @@
 					$('.go-top').attr("onclick", "handle(handle, 24);");		
 					$('.go-to').attr("onclick", "handle(handle, 36);");		
 
-					$("body").css("background", "#EAEBDA");
+					$("body").css("background", "#ACEDCF");
 					$(".metade-esquerda").toggle("clip", 800, function(){
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/pos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -622,7 +628,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#EAEBDA");
+								$(".metade-direita").css("background" ,"#ACEDCF");
 						
 							});
 
@@ -637,13 +643,13 @@
 
 				case 36:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#438FCF");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color", "#28732A");
 					paragrafo = "Novo parágrafo";
 					titulo = "Extensão";
 					link = "#extensao";
 					$('.go-top').attr("onclick", "handle(handle, 30);");
 					$('.go-to').attr("onclick", "handle(handle, 42);");
-					$("body").css("background", "black");
+					$("body").css("background", "#E3DAC6");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -667,7 +673,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"black");
+								$(".metade-direita").css("background" ,"#E3DAC6");
 						
 							});
 
@@ -692,13 +698,13 @@
 
 				case 42:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#3F4334");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Pesquisa";
 					link = "#pesquisa";
 					$('.go-top').attr("onclick", "handle(handle, 36);");
 					$('.go-to').attr("onclick", "handle(handle, 48);");
-					$("body").css("background", "#B1925A");
+					$("body").css("background", "#9FECF4");
 					
 					$(".metade-esquerda").toggle("puff", 1000, function(){
 
@@ -723,7 +729,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#B1925A");
+								$(".metade-direita").css("background" ,"#9FECF4");
 						
 							});
 
@@ -748,13 +754,13 @@
 
 				case 48:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0981B1");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#4E639F");
 					paragrafo = "Novo parágrafo";
-					titulo = "Sistemas de Bibliotecas";
+					titulo = "Sistema de Bibliotecas";
 					link = "#biblioteca";
 					$('.go-top').attr("onclick", "handle(handle, 42);");
 					$('.go-to').attr("onclick", "handle(handle, 54);");
-					$("body").css("background", "#95EAF1");
+					$("body").css("background", "#4DC5D8");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -779,7 +785,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#95EAF1");
+								$(".metade-direita").css("background" ,"#4DC5D8");
 						
 							});
 
@@ -804,7 +810,7 @@
 
 				case 54: //PROCESSOS SELETIVOS SEM IMAGEM!!!!!!
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#AB7758");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Processos Seletivos";
 					link = "#processosseletivos";
@@ -812,9 +818,10 @@
 					$('.go-to').attr("onclick", "handle(handle, 60);");
 					
 
-					$("body").css("background", "#F4F3B9");
+					$("body").css("background", "#72789E");
 					
 					$(".metade-esquerda").toggle("size", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/processos_seletivos.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("size", 1000, function(){
@@ -836,7 +843,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#F4F3B9");
+								$(".metade-direita").css("background" ,"#72789E");
 						
 							});
 
@@ -860,15 +867,16 @@
 
 				case 60:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0D0E0E");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#1E5249");
 					paragrafo = "Novo parágrafo";
 					titulo = "Hospital Universitário Clemente de Faria";
 					link = "#hospital";
 					$('.go-top').attr("onclick", "handle(handle, 54);");
 					$('.go-to').attr("onclick", "handle(handle, 66);");
-					$("body").css("background", "#DBE2FF");
+					$("body").css("background", "#86E19C");
 					
 					$(".metade-esquerda").toggle("clip", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "80px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/hospital.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("clip", 1000, function(){
@@ -891,7 +899,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#DBE2FF");
+								$(".metade-direita").css("background" ,"#86E19C");
 						
 							});
 
@@ -923,9 +931,10 @@
 					link = "#cepedor";
 					$('.go-top').attr("onclick", "handle(handle, 60);");
 					$('.go-to').attr("onclick", "handle(handle, 72);");
-					$("body").css("background", "#EF729C");
+					$("body").css("background", "#2677CA");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/cepedor.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -948,7 +957,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#EF729C");
+								$(".metade-direita").css("background" ,"#2677CA");
 						
 							});
 
@@ -973,13 +982,13 @@
 				case 72:
 
 
-				$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0977D9");
+				$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#465210");
 				paragrafo = "Novo parágrafo";
 				titulo = "Editora Unimontes";
 				link = "#editora";						
 				$('.go-top').attr("onclick", "handle(handle, 66);");
 				$('.go-to').attr("onclick", "handle(handle, 78);");
-				$("body").css("background", "#96EAF4");
+				$("body").css("background", "#EDECD6");
 
 				$(".metade-esquerda").toggle("blind", 1000, function(){
 					$(".metade-esquerda").css({"background": "url(img/relatorio/editora.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1003,7 +1012,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#96EAF4");
+								$(".metade-direita").css("background" ,"#EDECD6");
 						
 							});
 
@@ -1030,7 +1039,7 @@
 					$('.go-top').attr("onclick", "handle(handle, 74)");
 					$('.go-to').attr("onclick", "handle(handle, 84)");
 					
-					$("body").css("background", "#B0EBD1");
+					$("body").css("background", "#8BE181");
 
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1055,7 +1064,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#B0EBD1");
+								$(".metade-direita").css("background" ,"#8BE181");
 						
 							});
 
@@ -1079,15 +1088,16 @@
 
 				case 84:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#171717");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "SAJ Itinerante";
 					link = "#saj";
 					$('.go-top').attr("onclick", "handle(handle, 78);");
 					$('.go-to').attr("onclick", "handle(handle, 90);");
-					$("body").css("background", "#2F9CB2");
+					$("body").css("background", "#E44637");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
@@ -1109,7 +1119,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#2F9CB2");
+								$(".metade-direita").css("background" ,"#E44637");
 						
 							});
 
@@ -1132,15 +1142,17 @@
 						break;
 
 				case 90:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#0F7A81");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Intercâmbio e Cooperação Interinstitucional";
 					link = "#intercambio";
 					$('.go-top').attr("onclick", "handle(handle, 84);");
 					$('.go-to').attr("onclick", "handle(handle, 96);");
-					$("body").css("background", "#97E39B");
+					$("body").css("background", "#E062EA");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "100px");
+						$('.encapsulador-conteudo').css("color", "#000");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/intercambio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1163,7 +1175,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#97E39B");
+								$(".metade-direita").css("background" ,"#E062EA");
 						
 							});
 
@@ -1185,15 +1197,17 @@
 
 						break;
 				case 96:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#114E29");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#fff");
 					paragrafo = "Novo parágrafo";
 					titulo = "Museu Histórico Regional";
 					link = "#museu";
 					$('.go-top').attr("onclick", "handle(handle, 90);");
 					$('.go-to').attr("onclick", "handle(handle, 102);");
-					$("body").css("background", "#E1D7BC");
+					$("body").css("background", "#2729A2");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("margin-top", "200px");
+						$('.encapsulador-conteudo').css("color", "#969BD8");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/museu.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){		
@@ -1216,7 +1230,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#E1D7BC");
+								$(".metade-direita").css("background" ,"#2729A2");
 						
 							});
 
@@ -1238,15 +1252,16 @@
 						break;
 
 				case 102:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#3E5C8F");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Comunicação organizacional (Ascom)";
 					link = "#ascom";
 					$('.go-top').attr("onclick", "handle(handle, 96);");
 					$('.go-to').attr("onclick", "handle(handle, 108);");
-					$("body").css("background", "#4690B5");
+					$("body").css("background", "#E2BD79");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("color", "#000");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/ascom.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1269,7 +1284,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#4690B5");
+								$(".metade-direita").css("background" ,"#E2BD79");
 						
 							});
 
@@ -1292,15 +1307,16 @@
 						break;
 
 				case 108:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#697137");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Mídias Sociais";
 					link = "#midiassociais";
 					$('.go-top').attr("onclick", "handle(handle, 102)");
 					$('.go-to').attr("onclick", "handle(handle, 114)");
-					$("body").css("background", "#F2F1DD");
+					$("body").css("background", "#2FBC34");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
+						$('.encapsulador-conteudo').css("color", "#000");
 
 						$(".metade-esquerda").css({"background": "url(img/relatorio/midias_sociais.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						$(".metade-esquerda").toggle("blind", 1000, function(){
@@ -1322,7 +1338,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#F2F1DD");
+								$(".metade-direita").css("background" ,"#2FBC34");
 						
 							});
 
@@ -1352,7 +1368,7 @@
 					link = "#publicidade";
 					$('.go-top').attr("onclick", "handle(handle, 108)");
 					$('.go-to').attr("onclick", "handle(handle, 120)");
-					$("body").css("background", "#93E6EE");
+					$("body").css("background", "#E3B834");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1377,7 +1393,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#93E6EE");
+								$(".metade-direita").css("background" ,"#E3B834");
 						
 							});
 
@@ -1401,13 +1417,13 @@
 
 				case 120:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#397451");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Rádio Unimontes";
 					link = "#radio";
 					$('.go-top').attr("onclick", "handle(handle, 114)");
 					$('.go-to').attr("onclick", "handle(handle, 126)");
-					$("body").css("background", "#EAEBBF");
+					$("body").css("background", "#C7D8EA");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1431,7 +1447,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#EAEBBF");
+								$(".metade-direita").css("background" ,"#C7D8EA");
 						
 							});
 
@@ -1455,13 +1471,13 @@
 
 				case 126:
 
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#185955");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 					paragrafo = "Novo parágrafo";
 					titulo = "Imprensa Universitária";
 					link = "#imprensa";
 					$('.go-top').attr("onclick", "handle(handle, 120)");
 					$('.go-to').attr("onclick", "handle(handle, 132)");
-					$("body").css("background", "#B6D3E4");
+					$("body").css("background", "#EBECC3");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1485,7 +1501,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#B6D3E4");
+								$(".metade-direita").css("background" ,"#EBECC3");
 						
 							});
 
@@ -1508,14 +1524,14 @@
 						break;
 
 				case 132:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#496918");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Infraestrutura (obras, TI)";
 					link = "#infraestrutura";
 					$('.go-top').attr("onclick", "handle(handle, 126)");
 					$('.go-to').attr("onclick", "handle(handle, 138)");
-					$("body").css("background", "#E7E076");
+					$("body").css("background", "#8084EB");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1539,7 +1555,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#E7E076");
+								$(".metade-direita").css("background" ,"#8084EB");
 						
 							});
 
@@ -1561,14 +1577,14 @@
 						break;
 
 				case 138:
-					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#FCF7FF");
+					$(".fa-circle,.fa-chevron-up,.fa-chevron-down").css("color","#000");
 
 					paragrafo = "Novo parágrafo";
 					titulo = "Orçamento e Finanças";
 					link = "#orcamentoefinancas";
 					$('.go-top').attr("onclick", "handle(handle, 132)");
 					$('.go-to').attr("onclick", "handle(handle, 144)");
-					$("body").css("background", "#D522DE");
+					$("body").css("background", "#59CF7B");
 					
 					$(".metade-esquerda").toggle("blind", 1000, function(){
 
@@ -1592,7 +1608,7 @@
 							
 							 opacity: 0.1
 							}, 800, function(){
-								$(".metade-direita").css("background" ,"#D522DE");
+								$(".metade-direita").css("background" ,"#59CF7B");
 						
 							});
 
