@@ -805,12 +805,12 @@
 				$('.go-to').attr("onclick", "handle(handle, 78);");
 				$("body").css("background", "#EDECD6");
 
-				$(".metade-esquerda").toggle("blind", 1000, function(){
+				$(".metade-esquerda").toggle("size", 1000, function(){
 
 					$('.encapsulador-conteudo').css("margin-top", "160px");
 					$('.encapsulador-conteudo').css("color", "#000");
 					$(".metade-esquerda").css({"background": "url(img/relatorio/editora.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-					$(".metade-esquerda").toggle("blind", 1000, function(){					
+					$(".metade-esquerda").toggle("size", 1000, function(){					
 						$(".metade-esquerda").css({"background": "url(img/relatorio/editora.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 					});
 				});
@@ -859,12 +859,12 @@
 					
 					$("body").css("background", "#8BE181");
 
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("puff", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "100px");
 						$('.encapsulador-conteudo').css("color", "#000");			
 						$(".metade-esquerda").css({"background": "url(img/relatorio/ipc.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("puff", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/ipc.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});					
 						});
 
@@ -916,12 +916,12 @@
 					$('.go-to').attr("onclick", "handle(handle, 90);");
 					$("body").css("background", "#E44637");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("clip", 1000, function(){
 						
 						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("clip", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/saj.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 
@@ -1027,13 +1027,13 @@
 					$('.go-to').attr("onclick", "handle(handle, 102);");
 					$("body").css("background", "#2729A2");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("size", 1000, function(){
 						
 						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$('.encapsulador-conteudo').css("color", "#969BD8");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/museu.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){		
+						$(".metade-esquerda").toggle("size", 1000, function(){		
 							$(".metade-esquerda").css({"background": "url(img/relatorio/museu.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});			
 						});
 
@@ -1083,12 +1083,12 @@
 					$('.go-to').attr("onclick", "handle(handle, 108);");
 					$("body").css("background", "#E2BD79");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("clip", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "150px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/ascom.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("clip", 1000, function(){
 							$(".metade-esquerda").css({"background": "url(img/relatorio/ascom.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});				
 						});
 
@@ -1139,12 +1139,12 @@
 					$('.go-to').attr("onclick", "handle(handle, 114)");
 					$("body").css("background", "#2FBC34");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("puff", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/midias_sociais.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("puff", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/midias_sociais.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 					});
@@ -1252,12 +1252,12 @@
 					$('.go-to').attr("onclick", "handle(handle, 126)");
 					$("body").css("background", "#C7D8EA");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("clip", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Radio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("clip", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/Radio.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 					});
@@ -1308,12 +1308,12 @@
 					$('.go-to').attr("onclick", "handle(handle, 132)");
 					$("body").css("background", "#EBECC3");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("size", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "200px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/imprensa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("size", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/imprensa.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 					});
@@ -1419,12 +1419,12 @@
 					$('.go-to').attr("onclick", "location.reload()");
 					$("body").css("background", "#59CF7B");
 					
-					$(".metade-esquerda").toggle("blind", 1000, function(){
+					$(".metade-esquerda").toggle("puff", 1000, function(){
 
 						$('.encapsulador-conteudo').css("margin-top", "180px");
 						$('.encapsulador-conteudo').css("color", "#000");
 						$(".metade-esquerda").css({"background": "url(img/relatorio/orcamento_financas.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
-						$(".metade-esquerda").toggle("blind", 1000, function(){
+						$(".metade-esquerda").toggle("puff", 1000, function(){
 						$(".metade-esquerda").css({"background": "url(img/relatorio/orcamento_financas.jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});
 						});
 					});
