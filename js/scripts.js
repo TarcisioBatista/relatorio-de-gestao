@@ -1,33 +1,33 @@
 	$(document).ready(function(){
 		$('.metade-esquerda, .metade-direita').height($( window ).height());
-
-
 	});
 	
 	setInterval(
-    function () {
-        $('.foto').animate({rotate: '+=0.12deg'}, 0);
-        $('.foto1').animate({rotate: '-=0.12deg'}, 0);
-    },
-    100
+	    function () {
+	        $('.foto').animate({rotate: '+=0.12deg'}, 0);
+	        $('.foto1').animate({rotate: '-=0.12deg'}, 0);
+	    },
+	    100
 	);
 
 
 	function handledot (item, listname){
-			var num_listas;
-			item = item-1;
-			$("#list"+item).css(efeitolista);
-			$(".list_effect"+item).animate({opacity: 1,	},4000);
+		var num_listas;
+		item = item-1;
+		$("#list"+item).css(efeitolista);
+		$(".list_effect"+item).css('padding-top', '6px');
+		$(".list_effect"+item).animate({opacity: 1,	},4000);
 
 
-			for(num_listas = 1; num_listas < 29; num_listas++){		
-				//alert(num_listas);
-				if(num_listas != item){
-					$("#list"+num_listas).css(listapadrao);
-					$(".list_effect"+num_listas).animate({opacity: 0.5,},2000);
-					//$("#list"+num_listas).html("");
-				}
+		for(num_listas = 1; num_listas < 29; num_listas++){		
+			//alert(num_listas);
+			if(num_listas != item){
+				$("#list"+num_listas).css(listapadrao);
+				$(".list_effect"+num_listas).css('padding-top', '');
+				$(".list_effect"+num_listas).animate({opacity: 0.5,},2000);
+				//$("#list"+num_listas).html("");
 			}
+		}
 		
 	}
 

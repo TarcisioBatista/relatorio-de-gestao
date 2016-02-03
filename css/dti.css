@@ -92,12 +92,12 @@ body{
 	z-index: 1000;
 }
 body {
-    	height: 700px;
-		}
-		#direcao {
-    	position: fixed;
-    	top: 0px;
-		}
+	height: 700px;
+}
+#direcao {
+	position: fixed;
+	top: 0px;
+}
 .conteudo-esquerda{
 	margin-top: 10px;
 	z-index: 1000;
@@ -123,7 +123,7 @@ p{
 	color: #fff;
 	margin-top: 0px;
 	margin-left: -6px;
-	margin-bottom: 2px;
+	margin-bottom: 6px;
 }
 .time-line li:hover{
 	cursor:pointer;
@@ -434,10 +434,10 @@ td{
 .list_effect25,.list_effect26,.list_effect27,.list_effect28{
 	float:right;
 	font-size:14px;
-	padding-top:4px;
+	padding-top: '';
 	font-weight:bold;
 	font-style:normal;
-	margin-left:20px; 
+	margin-left:15px;
 	text-align:left; 
 	width:200px;  
 	opacity: 0;
