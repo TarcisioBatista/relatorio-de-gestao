@@ -1,11 +1,12 @@
 
 @font-face {
-	font-family: "Roboto Regular";
-	src: url("../fontes/Roboto-Regular.ttf");
-	}
+	font-family: "Stilu-Regular";
+	src: url("../fontes/Stilu-Regular.otf");
+}
 
 body{
 	background: #fff;
+	font-family: "Stilu-Regular";
 }
 .metade-esquerda{
 	width: 50%;
@@ -19,11 +20,12 @@ body{
 	}
 .metade-direita{
 	width: 50%;
-	/*height: 667px;*/
-	background: #23257C;/*-image: url(../img/fundo-2.png);*/
+	height: 667px;
+	background: url(../img/relatorio/capa2.jpg);/*-image: url(../img/fundo-2.png);*/
 	position: fixed;
 	right:1px;
 	color: #BCBCBC;
+	background-size:cover;
 }
 
 .logo{
@@ -86,8 +88,7 @@ body{
 	width: 70px;
 	height: auto;
 	padding:15px;
-	
-
+	background-color: #FFF;
 	position: fixed;
 	z-index: 1000;
 }
@@ -132,9 +133,8 @@ p{
 .time-line{
 	text-align: center;
 }
-
 .time-line {
-	margin: 45px 25px;
+	margin: 65px 25px;
     content: "";
     position: fixed;
    	height: 600px;
@@ -144,14 +144,12 @@ p{
 }
  ul {
 	list-style: none;
-
 }
 li{
-	    line-height: 13px;
+	line-height: 13px;
     margin-bottom: 4px;
 }
-.encapsulador-conteudo{
-	
+.encapsulador-conteudo{	
 	width:70%;
 	margin: 0 auto;
 	margin-top: 200px;
@@ -162,27 +160,24 @@ li{
 .background-icones{
 	position:absolute;
 	z-index: 1001;
-	//height: 667px;
+	height: 667px;
 }
 table{
-		//height: 100%;
+		height: 100%;
 }
 td{
-	padding: 0px 30px 55px;
+	padding: 0px 30px 90px;
 }
 #fotob{
 	width: 20px;
 	height: 20px;
 }
 
-
 #foto3{
 	width: 20px;
 	height: 9px;
 	opacity: 0.8;
 }
-
-
 
 #foto6{
 	width: 33px;
@@ -441,8 +436,9 @@ td{
 	text-align:left; 
 	width:200px;  
 	opacity: 0;
-	font-family: Helvetica;
+	font-family: Stilu-Regular;
 }
+
 
 .conteudo-direita-capa{
 	margin-top: 150px;
@@ -456,12 +452,12 @@ td{
 .conteudo-direita-capa a{
 	color: #FFF;
 	text-decoration: none;
-}
+	//text-shadow: 0.1em 0.1em #333
 
+}
 #tr-top td{
 	padding-top: 20px;
 }
-
 #tr-bottom td{
 	padding-bottom: 0px;
 }
@@ -469,7 +465,16 @@ td{
 	padding-top: 30px;
 	padding-bottom: 60px;
 }
-
 #voltarTopo{
 	visibility: hidden;
+}
+.fa-circle{
+	color: rgba(52, 120, 203, 0.13);
+}
+.h3{
+
+	font-family: "Stilu-Regular";
+}
+.icone1{
+	color: rgba(187, 187, 187, 0.23);
 }
