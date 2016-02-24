@@ -1,3 +1,5 @@
+
+
 	$(document).ready(function(){
 		$('.metade-esquerda, .metade-direita').height($( window ).height());
 
@@ -233,7 +235,8 @@
 
 		// MUDA O BACKGRDOUND DA METADE DIREITA						
 		$( ".metade-direita" ).animate({opacity: 0.1 }, 800, function(){
-				$(".metade-direita").css("background" ,corbackground); //COLOCAREMOS IMAGEM OU COR						
+				//$(".metade-direita").css("background" ,corbackground); //COLOCAREMOS IMAGEM OU COR
+				$(".metade-direita").css({"background": "url(img/relatorio/"+ corbackground +".jpg)", "background-repeat": "no-repeat", backgroundSize: "cover"});						
 			});
 		$( ".metade-direita" ).animate({opacity: 1}, 800);
 
@@ -394,7 +397,6 @@
 
 				case 0:	
 
-
 					posicao = 161;			
 					break;
 						
@@ -436,7 +438,7 @@
 					$('.go-to').attr("onclick", "handle(handle, 24);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
-					EfeitoMetade("blind","Ensino","100","rgba(31, 17, 150, 0.23)", "#000","#91A9B9", "ic-3", "ic-5");
+					EfeitoMetade("blind","Ensino","100","rgba(31, 17, 150, 0.23)", "#000","ascom_d", "ic-3", "ic-5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-7");
 					MudaConteudo(titulo,paragrafo,link);
@@ -475,7 +477,7 @@
 					$('.go-to').attr("onclick", "handle(handle, 36);");	
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
-					EfeitoMetade("blind","pos","100","#fff", "#000", "rgb(183, 170, 180)","#ACEDCF", "ic-4", "ic-3");
+					EfeitoMetade("blind","pos","100", "rgb(183, 170, 180)", "#000","pos_d", "ic-4", "ic-3");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-3");
 					MudaConteudo(titulo,paragrafo,link);
@@ -534,8 +536,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 42);");
 					$('.go-to').attr("onclick", "handle(handle, 54);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","biblioteca","150","#4E639F","#4DC5D8", "ic-6", "ic-4");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","biblioteca","150","#fff", "#4E639F","#4DC5D8", "ic-6", "ic-4");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-1");
 					MudaConteudo(titulo,paragrafo,link);			
@@ -553,8 +555,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 48);");
 					$('.go-to').attr("onclick", "handle(handle, 60);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","processos_seletivos","150","#000","#72789E", "ic-5", "ic-2");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","processos_seletivos","150","#fff","#000","#72789E", "ic-5", "ic-2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","lg6");
 					MudaConteudo(titulo,paragrafo,link);			
@@ -572,8 +574,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 54);");
 					$('.go-to').attr("onclick", "handle(handle, 66);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("size","hospital","80","#000","#86E19C", "ic-6", "ic-3");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("size","hospital","80","#fff","#000","#86E19C", "ic-6", "ic-3");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-3");
 					MudaConteudo(titulo,paragrafo,link);		
@@ -591,8 +593,8 @@
 
 					handledot(11,titulo);
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","cepedor","200","#270202","#2677CA", "ic-2", "ic-2");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","cepedor","200","#fff","#270202","#2677CA", "ic-2", "ic-2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-4");
 					MudaConteudo(titulo,paragrafo,link);
@@ -610,8 +612,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 66);");
 					$('.go-to').attr("onclick", "handle(handle, 78);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("puff","editora","160","#000","#EDECD6", "ic-1", "ic-6");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("puff","editora","160","#fff","#000","#EDECD6", "ic-1", "ic-6");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-1");
 					MudaConteudo(titulo,paragrafo,link);
@@ -629,8 +631,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 74)");
 					$('.go-to').attr("onclick", "handle(handle, 84)");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("size","ipc","100","#fff","#8BE181", "ic-1", "ic-6");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("size","ipc","100","#fff","#fff","#8BE181", "ic-1", "ic-6");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-1");
 					MudaConteudo(titulo,paragrafo,link);
@@ -648,8 +650,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 78);");
 					$('.go-to').attr("onclick", "handle(handle, 90);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("puff","saj","200","#000","#E44637", "ic-4", "ic-2");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("puff","saj","200","#000","#fff","#E44637", "ic-4", "ic-2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","lg3");
 					MudaConteudo(titulo,paragrafo,link);
@@ -667,8 +669,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 84);");
 					$('.go-to').attr("onclick", "handle(handle, 96);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","intercambio","100","#000","#E062EA", "ic-3", "ic-5");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","intercambio","100","#fff","#000","#E062EA", "ic-3", "ic-5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-1");
 					MudaConteudo(titulo,paragrafo,link);
@@ -686,8 +688,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 90);");
 					$('.go-to').attr("onclick", "handle(handle, 102);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("size","museu","200","#000","#2729A2", "ic-2", "ic-4");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("size","museu","200","#fff","#000","ascom_d", "ic-2", "ic-4");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-5");
 					MudaConteudo(titulo,paragrafo,link);
@@ -705,8 +707,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 96);");
 					$('.go-to').attr("onclick", "handle(handle, 108);");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("puff","ascom","200","#000","#E2BD79", "ic-2", "ic-3");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("puff","ascom","200","#fff","#000","ascom_d", "ic-2", "ic-3");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-5");
 					MudaConteudo(titulo,paragrafo,link);
@@ -724,8 +726,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 102)");
 					$('.go-to').attr("onclick", "handle(handle, 114)");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","midias_sociais","200","#000","#2FBC34", "ic-1", "ic-6");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","midias_sociais","#fff","200","#000","#2FBC34", "ic-1", "ic-6");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-5");
 					MudaConteudo(titulo,paragrafo,link);
@@ -743,8 +745,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 108)");
 					$('.go-to').attr("onclick", "handle(handle, 120)");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("size","publicidade","200","#1B5877","#E3B834", "ic-3", "ic-5");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("size","publicidade","200","#fff","#1B5877","publicidade_d", "ic-3", "ic-5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-4");
 					MudaConteudo(titulo,paragrafo,link);
@@ -762,8 +764,8 @@
 
 					handledot(20,titulo);
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","radio","200","#fff","#C7D8EA", "ic-1", "ic-5");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","radio","200","#fff","#fff","#C7D8EA", "ic-1", "ic-5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","lg6");
 					MudaConteudo(titulo,paragrafo,link);
@@ -782,8 +784,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 120)");
 					$('.go-to').attr("onclick", "handle(handle, 132)");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("puff","imprensa","200","#000","#EBECC3", "ic-6", "ic-2");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("puff","imprensa","200","#fff","#000","#EBECC3", "ic-6", "ic-2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-6");
 					MudaConteudo(titulo,paragrafo,link);
@@ -801,8 +803,8 @@
 					$('.go-top').attr("onclick", "handle(handle, 126)");
 					$('.go-to').attr("onclick", "handle(handle, 138)");
 
-					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("blind","infraestrutura","200","#fff","#8084EB", "ic-3", "ic-5");
+					//EfeitoMetade(efeito,img,margin,coricone,cortexto,corbackground,logo1,logo2)
+					EfeitoMetade("blind","infraestrutura","200","#fff","#fff","#8084EB", "ic-3", "ic-5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-5");
 					MudaConteudo(titulo,paragrafo,link);
@@ -820,8 +822,9 @@
 					$('.go-top').attr("onclick", "handle(handle, 132)");
 					$('.go-to').attr("onclick", "location.reload()");
 					
+					
 					//EfeitoMetade(efeito,img,margin,cor,corbackground,logo1,logo2)
-					EfeitoMetade("puff","orcamento_financas","180","#fff","#59CF7B", "ic-6", "ic-1");
+					EfeitoMetade("puff","orcamento_financas","180","#fff","#fff","#59CF7B", "ic-6", "ic-1");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-3");
 					MudaConteudo(titulo,paragrafo,link);
