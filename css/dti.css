@@ -8,6 +8,7 @@ body{
 	background: #fff;
 	font-family: "Stilu-Regular";
 	overflow:hidden; /*Tirar a barra de rolagem*/
+	height: 700px;
 }
 
 .metade-esquerda{
@@ -38,6 +39,16 @@ body{
 	top: 45%;
 }
 
+.logo img{
+
+	width: 70px;
+	height: auto;
+	padding:15px;
+	background-color: #FFF;
+	position: fixed;
+	z-index: 1000;
+}
+
 .go-to{
 	width: 50px;
 	height: 50px;
@@ -51,11 +62,13 @@ body{
 	padding-bottom:0px;
 	visibility: visible;
 }
+
 .go-to i{
 	color:#ccc;
 	margin-top: 10px;
 	font-size: 3em;
 }
+
 .go-to:hover i{
 	color:#999;
 	text-decoration: none;
@@ -84,22 +97,11 @@ body{
 	text-decoration: none;
 }
 
-.logo img{
-
-	width: 70px;
-	height: auto;
-	padding:15px;
-	//background-color: rgba(255, 255, 255, 0.14);
-	position: fixed;
-	z-index: 1000;
-}
-body {
-	height: 700px;
-}
 #direcao {
 	position: fixed;
 	top: 0px;
 }
+
 .conteudo-esquerda{
 	margin-top: 10px;
 	z-index: 1000;
@@ -111,14 +113,40 @@ body {
 .conteudo-direita{
 	text-align: center;
 }
+
+.conteudo-direita-capa{
+	margin-top: 150px;
+	z-index: 1005;
+	text-align: center;
+	width:50%;
+	position: relative;
+	display: inline-block;
+}
+.conteudo-direita-capa a{
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 0.1em 0.1em #333
+}
+
+.encapsulador-conteudo{	
+	width:70%;
+	margin: 0 auto;
+	margin-top: 200px;
+	z-index: 1002;
+	position: relative;
+	color: #000;
+}
+
 h1{
 	font-size: 58px;
 	padding: 18px;
 	line-height: 58px;
 }
+
 p{
 	padding: 15px;
 }
+
 .time-line i{
 	z-index: 1000;
 	position:relative;
@@ -127,6 +155,7 @@ p{
 	margin-left: -6px;
 	margin-bottom: 6px;
 }
+
 .time-line li:hover{
 	cursor:pointer;
 }
@@ -134,6 +163,7 @@ p{
 .time-line{
 	text-align: center;
 }
+
 .time-line {
 	margin: 65px 25px;
     content: "";
@@ -143,32 +173,30 @@ p{
     background: rgba(255,255,255);
     visibility: hidden;
 }
+
+table{
+		height: 100%;
+}
+
+td{
+	padding: 0px 30px 90px;
+}
+
  ul {
 	list-style: none;
 }
+
 li{
 	line-height: 13px;
     margin-bottom: 4px;
 }
-.encapsulador-conteudo{	
-	width:70%;
-	margin: 0 auto;
-	margin-top: 200px;
-	z-index: 1002;
-	position: relative;
-	color: #000;
-}
+
 .background-icones{
 	position:absolute;
 	z-index: 1001;
 	height: 667px;
 }
-table{
-		height: 100%;
-}
-td{
-	padding: 0px 30px 90px;
-}
+
 #fotob{
 	width: 20px;
 	height: 20px;
@@ -208,16 +236,17 @@ td{
 	z-index: 1001;
 	float: right;
 	padding: 5px 25px;
-	color:#2D61AA;
+	color:#fff;
 	font-size:18px;
 	font-weight: bold;
 	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 .voltarInicio:hover{
 	padding: 5px 30px;
-	color:#fff;
-	background-color: #2D61AA;
+	color:#000;
+	background-color: #000;
 	font-size:18px;
 	font-weight: bold;
 	text-decoration: none;
@@ -247,9 +276,60 @@ td{
 	text-align: center;
 	margin-bottom:20px; 
 }
+
 .lista-conteudos li{
 	padding: 20px;
 }
+
+.list_effect1,.list_effect2,.list_effect3,.list_effect4,.list_effect5,.list_effect6,
+.list_effect7,.list_effect8,.list_effect9,.list_effect10,.list_effect11,.list_effect12,
+.list_effect13,.list_effect14,.list_effect15,.list_effect16,.list_effect17,.list_effect18,
+.list_effect19,.list_effect20,.list_effect21,.list_effect22,.list_effect23,.list_effect24,
+.list_effect25,.list_effect26,.list_effect27,.list_effect28{
+	float:right;
+	font-size:14px;
+	padding-top: '';
+	font-weight:bold;
+	font-style:normal;
+	margin-left:15px;
+	text-align:left; 
+	width:200px;  
+	opacity: 0;
+	font-family: Stilu-Regular;
+}
+
+#tr-top td{
+	padding-top: 20px;
+}
+
+#tr-bottom td{
+	padding-bottom: 0px;
+}
+
+#menu{
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+#voltarTopo{
+	visibility: hidden;
+}
+
+.fa-circle{
+	color: rgba(52, 120, 203, 0.13);
+}
+
+.h3{
+
+	font-family: "Stilu-Regular";
+}
+
+.icone1{
+	color: rgba(187, 187, 187, 0.23);
+}
+
+
+/* ========== CONTEÚDOS RESPONSIVOS=========*/
 .content-responsivo-1{
 	background: url(../img/relatorio/apresentacao.jpg);
 	background-repeat: no-repeat;
@@ -423,59 +503,3 @@ td{
 	
 }
 
-.list_effect1,.list_effect2,.list_effect3,.list_effect4,.list_effect5,.list_effect6,
-.list_effect7,.list_effect8,.list_effect9,.list_effect10,.list_effect11,.list_effect12,
-.list_effect13,.list_effect14,.list_effect15,.list_effect16,.list_effect17,.list_effect18,
-.list_effect19,.list_effect20,.list_effect21,.list_effect22,.list_effect23,.list_effect24,
-.list_effect25,.list_effect26,.list_effect27,.list_effect28{
-	float:right;
-	font-size:14px;
-	padding-top: '';
-	font-weight:bold;
-	font-style:normal;
-	margin-left:15px;
-	text-align:left; 
-	width:200px;  
-	opacity: 0;
-	font-family: Stilu-Regular;
-}
-
-
-.conteudo-direita-capa{
-	margin-top: 150px;
-	z-index: 1005;
-	text-align: center;
-	width:50%;
-	position: relative;
-	display: inline-block;
-}
-
-.conteudo-direita-capa a{
-	color: #FFF;
-	text-decoration: none;
-	//text-shadow: 0.1em 0.1em #333
-
-}
-#tr-top td{
-	padding-top: 20px;
-}
-#tr-bottom td{
-	padding-bottom: 0px;
-}
-#menu{
-	padding-top: 30px;
-	padding-bottom: 60px;
-}
-#voltarTopo{
-	visibility: hidden;
-}
-.fa-circle{
-	color: rgba(52, 120, 203, 0.13);
-}
-.h3{
-
-	font-family: "Stilu-Regular";
-}
-.icone1{
-	color: rgba(187, 187, 187, 0.23);
-}
