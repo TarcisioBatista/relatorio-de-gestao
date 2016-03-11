@@ -5,7 +5,7 @@
 }
 
 body{
-	background: #fff;
+	background: rgb(123, 212, 254);
 	font-family: "Stilu-Regular";
 	overflow:hidden; /*Tirar a barra de rolagem*/
 	height: 700px;
@@ -17,7 +17,8 @@ body{
 	background-size:cover;
 	height:667px;
 	position: fixed;
-	left: 1px;	  
+	left: 1px;
+
 }
 
 .metade-direita{
@@ -211,7 +212,7 @@ li{
 #foto6{
 	width: 33px;
 	height: 15px;
-	opacity: 0.2;
+	opacity: 0.08;
 }
 
 .botao{
@@ -236,7 +237,7 @@ li{
 	z-index: 1001;
 	float: right;
 	padding: 5px 25px;
-	color:#fff;
+	color:#000;
 	font-size:18px;
 	font-weight: bold;
 	text-decoration: none;
@@ -256,7 +257,7 @@ li{
 	z-index: 1001;
 	float: right;
 	padding: 5px 25px;
-	color:#2D61AA;
+	color:#000;
 	font-size:18px;
 	font-weight: bold;
 	text-decoration: none;
