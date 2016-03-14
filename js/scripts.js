@@ -270,6 +270,9 @@
 	//MUDA CORES DOS BOTÕES DE VOLTAR AO TOPO E VOLTAR AO INÍCIO
 	function MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover){
 
+		$(".voltarInicio").css("color", textoinicio);
+		$(".voltarTopo").css("color", textoinicio);
+
 		$(".voltarInicio").hover(
 					function(){
 						$(this).css("background-color", backgroundhover);
@@ -470,10 +473,13 @@
 					$('.go-to').attr("onclick", "handle(handle, 24);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("blind","Ensino","100","rgba(238, 212, 57, 0.49)", "#fff","ensino_d", "rgb(238, 212, 57)");
+					EfeitoMetade("blind","Ensino","100","rgba(238, 212, 57, 0.49)", "#000","ensino_d", "rgb(238, 212, 57)");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-6");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
+					
 
 					break;
 
@@ -490,7 +496,7 @@
 					$('.go-to').attr("onclick", "handle(handle, 30);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("size","cead","120","rgba(98, 144, 224, 0.29)", "#000","cead_d", "rgb(98, 144, 225)");
+					EfeitoMetade("size","cead","120","rgba(98, 144, 224, 0.29)", "#fff","cead_d", "rgb(98, 144, 225)");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-7");
 					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
@@ -514,6 +520,8 @@
 					EfeitoMetade("blind","pos","100", "rgba(64, 182, 149, 0.09)", "#000","pos_d", "#40B695");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-3");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -531,9 +539,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 42);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("size","extensao","200","rgba(217, 153, 28, 0.19)", "#fff","extensao_d", "#F0D339");
+					EfeitoMetade("size","extensao","200","rgba(217, 153, 28, 0.19)", "#000","extensao_d", "#F0D339");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-6");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -554,6 +564,8 @@
 					EfeitoMetade("puff","pesquisa","200","rgba(0, 136, 204, 0.11)","#fff", "pesquisa_d", "#9DB2C5");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-1");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#fff", "#000", "rgba(255, 255, 255, 0)", "#fff");
 					MudaConteudo(titulo,paragrafo,link);	
 
 					break;
@@ -571,9 +583,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 54);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, cordoby)
-					EfeitoMetade("blind","biblioteca","150","rgba(236, 124, 38, 0.15)", "#4E639F","biblioteca_d", "#E5C51A");
+					EfeitoMetade("blind","biblioteca","150","rgba(236, 124, 38, 0.15)", "#000","biblioteca_d", "#E5C51A");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-6");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);			
 						
 					break;
@@ -590,9 +604,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 60);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("blind","processos_seletivos","150","rgba(33, 37, 163, 0.06)","#000","processos_seletivos_d", "#5389DC");
+					EfeitoMetade("blind","processos_seletivos","150","rgba(33, 37, 163, 0.06)","#fff","processos_seletivos_d", "#5389DC");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-1");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#fff", "#000", "rgba(255, 255, 255, 0)", "#fff");
 					MudaConteudo(titulo,paragrafo,link);			
 
 					break;
@@ -612,6 +628,8 @@
 					EfeitoMetade("size","hospital","80","rgba(51, 103, 46, 0.12)","#000","hospital_d", "#A1E4AF");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-3");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");	 
 					MudaConteudo(titulo,paragrafo,link);		
 
 					break;
@@ -631,6 +649,8 @@
 					EfeitoMetade("blind","cepedor","200","rgba(197, 184, 72, 0.22)","#270202","cepedor_d", "#E2C636");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-6");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -650,6 +670,8 @@
 					EfeitoMetade("puff","editora","160","rgba(122, 211, 255, 0.36)","#000","editora_d", "#5EC5FF");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-5");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -666,9 +688,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 84)");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("size","ipc","100","rgba(65, 143, 181, 0.22)","#fff","ipc_d", "#ABB0CD");
+					EfeitoMetade("size","ipc","100","rgba(65, 143, 181, 0.22)","#000","ipc_d", "#ABB0CD");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-8");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -685,9 +709,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 90);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("puff","saj","200","rgba(75, 31, 67, 0.09)","#fff","saj_d", "#C8A0A0");
+					EfeitoMetade("puff","saj","200","rgba(75, 31, 67, 0.09)","#000","saj_d", "#C8A0A0");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-9");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -704,9 +730,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 96);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("blind","intercambio","100","rgba(72, 94, 131, 0.13)","#000","intercambio_d", "#AFBCC2");
+					EfeitoMetade("blind","intercambio","100","rgba(72, 94, 131, 0.13)","#fff","intercambio_d", "#AFBCC2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-1");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#fff", "#000", "rgba(255, 255, 255, 0)", "#fff");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -723,9 +751,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 102);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("size","museu","200","rgba(85, 159, 254, 0.17)","#000","museu_d", "#559FFE");
+					EfeitoMetade("size","museu","120","rgba(85, 159, 254, 0.17)","#000","museu_d", "#559FFE");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("size","ic-5");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -742,9 +772,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 108);");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("puff","ascom","200","rgba(83, 85, 161, 0.23)","#000","ascom_d", "#9870A2");
+					EfeitoMetade("puff","ascom","120","rgba(83, 85, 161, 0.23)","#000","ascom_d", "#9870A2");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-8");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -764,6 +796,8 @@
 					EfeitoMetade("blind","midias_sociais","200","rgba(30, 136, 224, 0.16)", "#000","midias_sociais_d", "#7ED5FF");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-5");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -802,6 +836,8 @@
 					EfeitoMetade("blind","radio","200","rgba(52, 41, 57, 0.17)","#fff","radio_d", "#8D6297");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-8");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#fff", "#000", "rgba(255, 255, 255, 0)", "#fff");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -822,6 +858,8 @@
 					EfeitoMetade("puff","imprensa","200","rgba(223, 127, 77, 0.18)","#000","imprensa_d", "#D8A644");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-6");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 					
 					break;
@@ -838,9 +876,11 @@
 					$('.go-to').attr("onclick", "handle(handle, 138)");
 
 					//EfeitoMetade(efeito,img,margin,coricone,cortexto,imgbackground, corbody)
-					EfeitoMetade("blind","infraestrutura","200","rgba(144, 186, 237, 0.14)","#fff","infraestrutura_d", "#ADFEFF");
+					EfeitoMetade("blind","infraestrutura","200","rgba(144, 186, 237, 0.14)","#000","infraestrutura_d", "#ADFEFF");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("blind","ic-5");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#000", "#fff", "rgba(255, 255, 255, 0)", "#000");
 					MudaConteudo(titulo,paragrafo,link);
 
 					break;
@@ -861,6 +901,8 @@
 					EfeitoMetade("puff","orcamento_financas","180","rgba(95, 118, 198, 0.18)","#fff","orcamento_financas_d", "#849FD4");
 					//EfeitoLogo(efeito,img)
 					EfeitoLogo("puff","ic-8");
+					//MudaBotoes(textoinicio, textohover, backgroundinicio, backgroundhover)
+					MudaBotoes("#fff", "#000", "rgba(255, 255, 255, 0)", "#fff");
 					MudaConteudo(titulo,paragrafo,link);
 					
 					break;
