@@ -503,4 +503,31 @@ li{
 	height: 500px;
 	
 }
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
 
+.carousel-indicators{
+	visibility: hidden;
+}
+
+.carousel-control{
+	font-size: 40px;
+}
+
+.carousel .item{
+	transition: 60s ease-in-out left;
+}
+
+#titleModal{
+	padding: 0cm 2cm 0cm 2cm;
+	z-index: 3000;
+}
+
+#textoModal{
+	padding: 0cm 2cm 0cm 2cm;
+}
+
+.modal-body{
+	background: url("img/fundo-2.png");
+}

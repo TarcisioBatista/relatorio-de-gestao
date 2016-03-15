@@ -298,6 +298,11 @@
 
 	}
 
+	function paginacao(paginaatual,proximapagina){
+		$("'"+paginaatual+"'").css("visibility", hidden);
+		$("'"+proximapagina+"'").css("visibility", visible);
+
+	}
 
 	setInterval(
     function () {
